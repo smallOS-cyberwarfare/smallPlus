@@ -1,0 +1,4 @@
+curl
+ks
+ls
+exit
