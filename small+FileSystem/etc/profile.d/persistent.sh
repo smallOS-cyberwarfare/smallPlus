@@ -24,7 +24,7 @@ addPath() {
   fi
 }
 
-addPath /home/.local/bin
+addPath "/home/.local/bin"
 addPath "/usr/local/sbin"
 addPath "/usr/local/bin"
 addPath "/usr/sbin"
@@ -36,7 +36,7 @@ unset -f addPath
 yellow=$'\e[1;33m';
 green=$'\e[1;32m';
 reset=$'\e[0m';
-PS1='\n\n${yellow}SMALL${green} $(pwd)${reset}\n> ';
+PS1='\n\n${yellow}SMALL+${green} $(pwd)${reset}\n> ';
 PS2='${yellow}.${reset}  ';
 # ENV #
 
@@ -71,6 +71,7 @@ alias ...='cd ../..';
 alias ....='cd ../../..';
 alias .....='cd ../../../..';
 alias pserv='python -m http.server';
+alias nserv='http-server'
 alias gitc='git clone';
 alias 775='chmod +775';
 alias h='history';
