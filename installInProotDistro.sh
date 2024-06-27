@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r
 
 echo '##
 ## Plug-in for installing small
 ##
 
-DISTRO_NAME="small https://github.com/stringmanolo/small"
+DISTRO_NAME="small+ (https://github.com/smallOS-cyberwarfare/smallPlus)"
 
 # You can override a CPU architecture to let distribution
 # be executed by QEMU (user-mode).
@@ -53,7 +53,7 @@ get_download_url() {
 # Define here additional steps which should be executed
 # for configuration.
 distro_setup() {
-        # Hint: $PWD is the distribution rootfs directory.
+       # Hint: $PWD is the distribution rootfs directory.
         #echo "hello world" > ./etc/motd
 
         # Run command within proot'"'"'ed environment with
@@ -63,33 +63,33 @@ distro_setup() {
         :
 }
 
-' > /data/data/com.termux/files/usr/etc/proot-distro/small.sh
+' > /data/data/com.termux/files/usr/etc/proot-distro/smallPlus.sh
 
-proot-distro remove small;
+proot-distro remove small+;
 
-proot-distro install small;
+proot-distro install small+;
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r
 
-cp smallFileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small -r;
+cp smallPlusFileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r;
 
 # SMALL_COMMAND IS CHECKED INSIDE SHELL TO DECIDE IF TO PRINT MOTD OR NOT 
 echo '#!/usr/bin/env bash
 
 if [[ "$1" ]]; then
- touch /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small/tmp/.small_command_1;
+ touch /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus/tmp/.small_command_1;
  proot-distro login small --isolated --fix-low-ports -- /bin/"$@"
- rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small/tmp/.small_command_1;
+ rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus/tmp/.small_command_1;
 else
   clear;
-  proot-distro login small --isolated --fix-low-ports
+  proot-distro login small+ --isolated --fix-low-ports
 fi
-' > "$HOME"/../usr/bin/small;
+' > "$HOME"/../usr/bin/small+;
 
-chmod +775 "$HOME"/../usr/bin/small;
+chmod +775 "$HOME"/../usr/bin/small+;
 
 echo 'System Ready:
 
-$ small
+$ small+
 ' 
 
