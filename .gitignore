@@ -2,5 +2,9 @@
 
 
 # small+FileSystem
+small+FileSystem/root/.ash_history          # History of commands run in ash shell
+small+FileSystem/root/.bash_history         # History of commands run in ash shell
 small+FileSystem/home/.ash_history          # History of commands run in ash shell
+small+FileSystem/home/.bash_history         # History of commands run in bash shell
 small+FileSystem/var/cache/apk/             # All available APK packages 
+small+FileSystem/home/.npm                  # Cache and logs

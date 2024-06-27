@@ -3,10 +3,12 @@ alpine-keys
 apk-tools
 bash
 busybox
-curl
 git
 jq
 libc-utils
+libcrypto1.1@testing
+libssl1.1@testing
 nodejs
 npm
+openssl
 tree
