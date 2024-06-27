@@ -63,7 +63,7 @@ alias egrep='egrep --color=auto';
 
 alias l='ls';
 alias la='ls -a';
-alias v='vi';
+alias v='vim';
 alias c='clear';
 alias cl='clear && ls';
 alias ..='cd ..';

@@ -29,4 +29,4 @@ small+
 - jq
 - git
 - tgbot
-
+- vim
