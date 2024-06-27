@@ -1,9 +1,6 @@
-small+FileSystem/root/.ash_history          # History of commands run in ash shell
-small+FileSystem/root/.bash_history         # History of commands run in ash shell
-small+FileSystem/root/.bashrc               # Bashrc shouldnt be here
-small+FileSystem/home/.ash_history          # History of commands run in ash shell
-small+FileSystem/home/.bash_history         # History of commands run in bash shell
-small+FileSystem/home/.bashrc               # Bashrc shouldnt be here
+*.ash_history                               # History of commands run in ash shell
+*.bash_history                              # History of commands run in ash shell
+*.bashrc                                    
 small+FileSystem/var/cache/apk/             # All available APK packages 
 small+FileSystem/home/.npm                  # Cache and logs
 small+FileSystem/bin/password.txt           $ tgbot password
