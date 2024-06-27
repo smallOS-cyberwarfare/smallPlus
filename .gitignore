@@ -8,3 +8,5 @@ small+FileSystem/home/.ash_history          # History of commands run in ash she
 small+FileSystem/home/.bash_history         # History of commands run in bash shell
 small+FileSystem/var/cache/apk/             # All available APK packages 
 small+FileSystem/home/.npm                  # Cache and logs
+small+FileSystem/bin/password.txt           $ tgbot password
+small+FileSystem/bin/token.txt              # tgbot telegram api token

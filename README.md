@@ -18,3 +18,15 @@ pkg install proot-distro
 small+
 ```
 
+#### Preinstaled Software
+- busybox
+- bash
+- curl 
+- node
+- npm
+- http-server
+- tree
+- jq
+- git
+- tgbot
+

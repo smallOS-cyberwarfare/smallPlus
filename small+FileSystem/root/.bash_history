@@ -67,3 +67,11 @@ ls -a
 echo "$SHELL"
 v .bash_history 
 exit
+ls
+q
+v texti
+ls -a
+ls /home/ -a
+ls /bin/
+ls /usr/bin/
+q
