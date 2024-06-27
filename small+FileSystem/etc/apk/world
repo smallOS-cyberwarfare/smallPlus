@@ -1,5 +1,12 @@
 alpine-baselayout
 alpine-keys
 apk-tools
+bash
 busybox
+curl
+git
+jq
 libc-utils
+nodejs
+npm
+tree
