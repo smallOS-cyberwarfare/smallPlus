@@ -1,7 +1,3 @@
-
-
-
-# small+FileSystem
 small+FileSystem/root/.ash_history          # History of commands run in ash shell
 small+FileSystem/root/.bash_history         # History of commands run in ash shell
 small+FileSystem/root/.bashrc               # Bashrc shouldnt be here
