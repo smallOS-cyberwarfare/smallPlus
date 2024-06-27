@@ -1,140 +1,28 @@
-C:Q1F7yFxhWokOfE3sjnFFizSa/Ktdk=
-P:musl
-V:1.2.2-r7
-A:aarch64
-S:391903
-I:651264
-T:the musl c library (libc) implementation
-U:https://musl.libc.org/
-L:MIT
-o:musl
-m:Timo Teräs <timo.teras@iki.fi>
-t:1632431095
-c:bf5bbfdbf780092f387b7abe401fbfceda90c84d
-p:so:libc.musl-aarch64.so.1=1
-F:lib
-R:ld-musl-aarch64.so.1
-a:0:0:755
-Z:Q1zz+O/52F6fyPj7ln/M2HuVEmdqE=
-R:libc.musl-aarch64.so.1
-a:0:0:777
-Z:Q14RpiCEfZIqcg1XDcVqp8QEpc9ks=
-
-C:Q14KB71Ty5PnVITvMYmUDxpnHeMSI=
-P:busybox
-V:1.34.1-r3
-A:aarch64
-S:512501
-I:999424
-T:Size optimized toolbox of many common UNIX utilities
-U:https://busybox.net/
-L:GPL-2.0-only
-o:busybox
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1637629055
-c:2493d4c71a0bd6bbccf8a966c0a9cb25d17882a3
-D:so:libc.musl-aarch64.so.1
-p:/bin/sh cmd:busybox=1.34.1-r3 cmd:sh=1.34.1-r3
-r:busybox-initscripts
-F:bin
-R:busybox
-a:0:0:755
-Z:Q1FjA9KfCiFX2IwzQscNGUtsfjXi4=
-R:sh
-a:0:0:777
-Z:Q1pcfTfDNEbNKQc2s1tia7da05M8Q=
-F:etc
-R:securetty
-Z:Q1mB95Hq2NUTZ599RDiSsj9w5FrOU=
-R:udhcpd.conf
-Z:Q1EgLFjj67ou3eMqp4m3r2ZjnQ7QU=
-F:etc/logrotate.d
-R:acpid
-Z:Q1TylyCINVmnS+A/Tead4vZhE7Bks=
-F:etc/network
-F:etc/network/if-down.d
-F:etc/network/if-post-down.d
-F:etc/network/if-post-up.d
-F:etc/network/if-pre-down.d
-F:etc/network/if-pre-up.d
-F:etc/network/if-up.d
-R:dad
-a:0:0:775
-Z:Q1ORf+lPRKuYgdkBBcKoevR1t60Q4=
-F:sbin
-F:tmp
-M:0:0:1777
-F:usr
-F:usr/sbin
-F:usr/share
-F:usr/share/udhcpc
-R:default.script
-a:0:0:755
-Z:Q1t9vir/ZrX3nbSIYT9BDLWZenkVQ=
-F:var
-F:var/cache
-F:var/cache/misc
-F:var/lib
-F:var/lib/udhcpd
-
-C:Q1Jv280smjHCZWroEr0h+8I5Sl9DU=
+C:Q1R9ZP0tsvI8T8g9RLcTlCnsFt8l4=
 P:alpine-baselayout
-V:3.2.0-r18
+V:3.6.5-r0
 A:aarch64
-S:20950
-I:405504
+S:8504
+I:315392
 T:Alpine base dir structure and init scripts
 U:https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
 L:GPL-2.0-only
 o:alpine-baselayout
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1631819611
-c:dfa1379357a321e638feef1cd8d55ab03d020f45
-D:/bin/sh so:libc.musl-aarch64.so.1
-p:cmd:mkmntdirs=3.2.0-r18
+t:1714981135
+c:66187892e05b03a41d08e9acabd19b7576a1c875
+D:alpine-baselayout-data=3.6.5-r0 /bin/sh
+q:1000
 F:dev
 F:dev/pts
 F:dev/shm
 F:etc
-R:fstab
-Z:Q11Q7hNe8QpDS531guqCdrXBzoA/o=
-R:group
-Z:Q13K+olJg5ayzHSVNUkggZJXuB+9Y=
-R:hostname
-Z:Q16nVwYVXP/tChvUPdukVD2ifXOmc=
-R:hosts
-Z:Q1BD6zJKZTRWyqGnPi4tSfd3krsMU=
-R:inittab
-Z:Q1TsthbhW7QzWRe1E/NKwTOuD4pHc=
-R:modules
-Z:Q1toogjUipHGcMgECgPJX64SwUT1M=
 R:motd
-Z:Q1XmduVVNURHQ27TvYp1Lr5TMtFcA=
-R:mtab
-a:0:0:777
-Z:Q1kiljhXXH1LlQroHsEJIkPZg2eiw=
-R:passwd
-Z:Q1TchuuLUfur0izvfZQZxgN/LJhB8=
-R:profile
-Z:Q1VmHPWPjjvz4oCsbmYCUB4uWpSkc=
-R:protocols
-Z:Q1omKlp3vgGq2ZqYzyD/KHNdo8rDc=
-R:services
-Z:Q19WLCv5ItKg4MH7RWfNRh1I7byQc=
-R:shadow
-a:0:42:640
-Z:Q1ltrPIAW2zHeDiajsex2Bdmq3uqA=
-R:shells
-Z:Q1ojm2YdpCJ6B/apGDaZ/Sdb2xJkA=
-R:sysctl.conf
-Z:Q14upz3tfnNxZkIEsUhWn7Xoiw96g=
-F:etc/apk
-F:etc/conf.d
+Z:Q1SLkS9hBidUbPwwrw+XR0Whv3ww8=
 F:etc/crontabs
 R:root
 a:0:0:600
 Z:Q1vfk1apUWI4yLJGhhNRd0kJixfvY=
-F:etc/init.d
 F:etc/modprobe.d
 R:aliases.conf
 Z:Q1WUbh6TBYNVK7e4Y+uUvLs/7viqk=
@@ -158,17 +46,16 @@ F:etc/periodic/hourly
 F:etc/periodic/monthly
 F:etc/periodic/weekly
 F:etc/profile.d
+R:20locale.sh
+Z:Q1lq29lQzPmSCFKVmQ+bvmZ/DPTE4=
 R:README
 Z:Q135OWsCzzvnB2fmFx62kbqm1Ax1k=
 R:color_prompt.sh.disabled
-Z:Q10wL23GuSCVfumMRgakabUI6EsSk=
-R:locale.sh
-Z:Q1S8j+WW71mWxfVy8ythqU7HUVoBw=
+Z:Q11XM9mde1Z29tWMGaOkeovD/m4uU=
 F:etc/sysctl.d
 F:home
 F:lib
 F:lib/firmware
-F:lib/mdev
 F:lib/modules-load.d
 F:lib/sysctl.d
 R:00-alpine.conf
@@ -184,14 +71,12 @@ F:root
 M:0:0:700
 F:run
 F:sbin
-R:mkmntdirs
-a:0:0:755
-Z:Q1SJKb8+jb6yoB4H5Crbm73jzZU0w=
 F:srv
 F:sys
 F:tmp
 M:0:0:1777
 F:usr
+F:usr/bin
 F:usr/lib
 F:usr/lib/modules-load.d
 F:usr/local
@@ -228,6 +113,55 @@ a:0:0:777
 Z:Q1OFZt+ZMp7j0Gny0rqSKuWJyqYmA=
 F:var/tmp
 M:0:0:1777
+
+C:Q1CBqmrtqbjIw3pkxXZ5Thkf2kPxg=
+P:alpine-baselayout-data
+V:3.6.5-r0
+A:aarch64
+S:11219
+I:77824
+T:Alpine base dir structure and init scripts
+U:https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout
+L:GPL-2.0-only
+o:alpine-baselayout
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1714981135
+c:66187892e05b03a41d08e9acabd19b7576a1c875
+r:alpine-baselayout
+q:1000
+F:etc
+R:fstab
+Z:Q11Q7hNe8QpDS531guqCdrXBzoA/o=
+R:group
+Z:Q12Otk4M39fP2Zjkobu0nC9FvlRI0=
+R:hostname
+Z:Q16nVwYVXP/tChvUPdukVD2ifXOmc=
+R:hosts
+Z:Q1BD6zJKZTRWyqGnPi4tSfd3krsMU=
+R:inittab
+Z:Q1zpWG0qzx2UYnZSWaIczE+WpAIVE=
+R:modules
+Z:Q1toogjUipHGcMgECgPJX64SwUT1M=
+R:mtab
+a:0:0:777
+Z:Q1kiljhXXH1LlQroHsEJIkPZg2eiw=
+R:nsswitch.conf
+Z:Q19DBsMnv0R2fajaTjoTv0C91NOqo=
+R:passwd
+Z:Q1r+bLonZkAyBix/HLgSeDsez22Zs=
+R:profile
+Z:Q1VN0dmawDg3mBE/ljB+6bUrC7Dzc=
+R:protocols
+Z:Q11fllRTkIm5bxsZVoSNeDUn2m+0c=
+R:services
+Z:Q1oNeiKb8En3/hfoRFImI25AJFNdA=
+R:shadow
+a:0:42:640
+Z:Q1miRFe6MuYCWAiVxqiFzhddegBq4=
+R:shells
+Z:Q1ojm2YdpCJ6B/apGDaZ/Sdb2xJkA=
+R:sysctl.conf
+Z:Q14upz3tfnNxZkIEsUhWn7Xoiw96g=
 
 C:Q1pVOasi1aeu9AtTHPfAeSZNgCCGc=
 P:alpine-keys
@@ -361,21 +295,130 @@ R:alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub
 a:0:0:777
 Z:Q1qKA23VzMUDle+Dqnrr5Kz+Xvty4=
 
-C:Q1r5+15CScXKmhGll+v1Dy/7JV9Y4=
-P:ca-certificates-bundle
-V:20191127-r7
+C:Q1u2ym9AxaPUuKkZt9wuzNXbihxKU=
+P:apk-tools
+V:2.14.4-r0
 A:aarch64
-S:124723
-I:233472
+S:127552
+I:380928
+T:Alpine Package Keeper - package manager for alpine
+U:https://gitlab.alpinelinux.org/alpine/apk-tools
+L:GPL-2.0-only
+o:apk-tools
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1713279057
+c:d435c805af8af4171438da3ec3429c094aac4c6e
+D:musl>=1.2.3_git20230424 ca-certificates-bundle so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3 so:libz.so.1
+p:so:libapk.so.2.14.0=2.14.0 cmd:apk=2.14.4-r0
+F:etc
+F:etc/apk
+F:etc/apk/keys
+F:etc/apk/protected_paths.d
+F:lib
+R:libapk.so.2.14.0
+a:0:0:755
+Z:Q11u7Uv0EzeSKFkixEMi1C4ZZAXlA=
+F:lib/apk
+F:lib/apk/db
+F:lib/apk/exec
+F:sbin
+R:apk
+a:0:0:755
+Z:Q1GRtkKI+JdvnLWHWtJEgWcZmOzu0=
+
+C:Q1PZ3T+4Hk9em7LUMOn+9ZggOsfIA=
+P:busybox
+V:1.36.1-r29
+A:aarch64
+S:528999
+I:1040384
+T:Size optimized toolbox of many common UNIX utilities
+U:https://busybox.net/
+L:GPL-2.0-only
+o:busybox
+m:Sören Tempel <soeren+alpine@soeren-tempel.net>
+t:1718003507
+c:1747c01fb96905f101c25609011589d28e01cbb8
+D:so:libc.musl-aarch64.so.1
+p:cmd:busybox=1.36.1-r29
+r:busybox-initscripts
+F:bin
+R:busybox
+a:0:0:755
+Z:Q1lc1JQxbHKTnHxn8QuIDvgmqByMg=
+F:etc
+R:securetty
+Z:Q1DinOf6JRpCRgM6vNqjOexd3oSnU=
+F:etc/busybox-paths.d
+R:busybox
+Z:Q1r5ly2rkn+0v8v1dN6M+HBJKmZlc=
+F:etc/logrotate.d
+R:acpid
+Z:Q1TylyCINVmnS+A/Tead4vZhE7Bks=
+F:etc/network
+F:etc/network/if-down.d
+F:etc/network/if-post-down.d
+F:etc/network/if-post-up.d
+F:etc/network/if-pre-down.d
+F:etc/network/if-pre-up.d
+F:etc/network/if-up.d
+R:dad
+a:0:0:775
+Z:Q13dmbwZfDboqaq5Rjqu69pEp6gCk=
+F:etc/udhcpc
+R:udhcpc.conf
+Z:Q1m8Bp5DQijmykQYSL+3prrCP6FIo=
+F:sbin
+F:tmp
+M:0:0:1777
+F:usr
+F:usr/sbin
+F:usr/share
+F:usr/share/udhcpc
+R:default.script
+a:0:0:755
+Z:Q1HWpG3eQD8Uoi4mks2E3SSvOAUhY=
+F:var
+F:var/cache
+F:var/cache/misc
+
+C:Q1eVCFIUwGdmDkJTBOIhfylt1vBuI=
+P:busybox-binsh
+V:1.36.1-r29
+A:aarch64
+S:1483
+I:8192
+T:busybox ash /bin/sh
+U:https://busybox.net/
+L:GPL-2.0-only
+o:busybox
+m:Sören Tempel <soeren+alpine@soeren-tempel.net>
+t:1718003507
+c:1747c01fb96905f101c25609011589d28e01cbb8
+k:100
+D:busybox=1.36.1-r29
+p:/bin/sh cmd:sh=1.36.1-r29
+r:busybox-initscripts
+F:bin
+R:sh
+a:0:0:777
+Z:Q1pcfTfDNEbNKQc2s1tia7da05M8Q=
+
+C:Q1WTaxkM5GDX5n/oNq7cPedv59BKk=
+P:ca-certificates-bundle
+V:20240226-r0
+A:aarch64
+S:130197
+I:241664
 T:Pre generated bundle of Mozilla certificates
 U:https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/
 L:MPL-2.0 AND MIT
 o:ca-certificates
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1634364270
-c:670bf5a8cc5bc605eede8ca2fd55b50a5c9f8660
-p:ca-certificates-cacert=20191127-r7
-r:libressl2.7-libcrypto
+t:1708948142
+c:56fb003da0adcea3b59373ef6a633d0c5bfef3ac
+p:ca-certificates-cacert=20240226-r0
+r:libressl2.7-libcrypto libcrypto1.1
 F:etc
 F:etc/ssl
 R:cert.pem
@@ -383,228 +426,133 @@ a:0:0:777
 Z:Q1Nj6gTBdkZpTFW/obJGdpfvK0StA=
 F:etc/ssl/certs
 R:ca-certificates.crt
-Z:Q1yxhc/Gjt/YEWliIZBXQz/RBrszU=
-
-C:Q1YMbzgImYGQCrpcDI/ZuuJjB3ikU=
-P:libcrypto1.1
-V:1.1.1l-r7
-A:aarch64
-S:1090239
-I:2441216
-T:Crypto library from openssl
-U:https://www.openssl.org/
-L:OpenSSL
-o:openssl
-m:Timo Teras <timo.teras@iki.fi>
-t:1637624988
-c:d206261d3031d1f359370a5f7c363d8623a1487f
-D:so:libc.musl-aarch64.so.1
-p:so:libcrypto.so.1.1=1.1
-r:libressl2.7-libcrypto
-F:etc
+Z:Q17xQrUC3ijLc/qyYMgAMru5AT8r0=
 F:etc/ssl1.1
 R:cert.pem
 a:0:0:777
-Z:Q1OeUyODYWe2hBwBm0qws2oDW/WQc=
+Z:Q1tlrPS9O4v/nypdyJVPoUkUfBJ3g=
 R:certs
 a:0:0:777
-Z:Q1NoBF7RMIiT9fCXLj/mbDh+pnL9o=
+Z:Q1qE3WqZ1tRpwrmptYdQcZwzvJgds=
+
+C:Q1vJESncGcGSA0FUc8pHp/UxiRIrk=
+P:libcrypto3
+V:3.3.1-r0
+A:aarch64
+S:2228685
+I:5095424
+T:Crypto library from openssl
+U:https://www.openssl.org/
+L:Apache-2.0
+o:openssl
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1717760371
+c:15cc530882e1e6f3dc8a77200ee8bd01cb98f53c
+D:so:libc.musl-aarch64.so.1
+p:so:libcrypto.so.3=3
+r:libcrypto1.1
+F:etc
+F:etc/ssl
 R:ct_log_list.cnf
-a:0:0:777
-Z:Q1a7VPR85wruXFmNFZE/DBa0Pyzq0=
+Z:Q1olh8TpdAi2QnTl4FK3TjdUiSwTo=
 R:ct_log_list.cnf.dist
 Z:Q1olh8TpdAi2QnTl4FK3TjdUiSwTo=
 R:openssl.cnf
-Z:Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA=
+Z:Q1xqqkN/qw1Bhv82HaWJUsRUR/AYE=
 R:openssl.cnf.dist
-Z:Q1wGuxVEOK9iGLj1i8D3BSBnT7MJA=
-F:etc/ssl1.1/private
+Z:Q1xqqkN/qw1Bhv82HaWJUsRUR/AYE=
+F:etc/ssl/certs
+F:etc/ssl/private
 F:lib
-R:libcrypto.so.1.1
+R:libcrypto.so.3
 a:0:0:755
-Z:Q1INzD/n5pOEp2KuardvJVyH6gpDE=
+Z:Q1EaIux8ETgidigZtW9VU4FB0koN8=
 F:usr
 F:usr/lib
-R:libcrypto.so.1.1
+R:libcrypto.so.3
 a:0:0:777
-Z:Q1T2si+c7ts7sgDxQYve4B3i1Dgo0=
-F:usr/lib/engines-1.1
+Z:Q1XK8nt7AyX7GIGpMOLlkJk5dy81c=
+F:usr/lib/engines-3
 R:afalg.so
 a:0:0:755
-Z:Q1R94ckLr11pgyb/FjQjq8UT3hMuk=
+Z:Q1U1rntkk7KT5nDK6sPtO3dy2VqNA=
 R:capi.so
 a:0:0:755
-Z:Q1/eyifpzDDVdIPuHZ9dpCXUHb6qY=
+Z:Q1a2PTp6XSoxB+wWXah+ljR6+SN94=
+R:loader_attic.so
+a:0:0:755
+Z:Q1koxLMn9JDZKD5u1gvVdNkaVNUho=
 R:padlock.so
 a:0:0:755
-Z:Q1duZy9fwCYY5KZIvhEo7wuAEZxxw=
+Z:Q1Rk68GVVaz9OBzEPANST/HDAdMsE=
+F:usr/lib/ossl-modules
+R:legacy.so
+a:0:0:755
+Z:Q1FqhNi1qmTLoA1efm6ghfTYuHp8c=
 
-C:Q1c3nRf9g+KDe3Rh7CuSAGs2MGtD4=
-P:libssl1.1
-V:1.1.1l-r7
+C:Q1wqrPaYqOYNLWe5Uq3koKtSaGdUY=
+P:libssl3
+V:3.3.1-r0
 A:aarch64
-S:207599
-I:536576
+S:362635
+I:950272
 T:SSL shared libraries
 U:https://www.openssl.org/
-L:OpenSSL
+L:Apache-2.0
 o:openssl
-m:Timo Teras <timo.teras@iki.fi>
-t:1637624988
-c:d206261d3031d1f359370a5f7c363d8623a1487f
-D:so:libc.musl-aarch64.so.1 so:libcrypto.so.1.1
-p:so:libssl.so.1.1=1.1
-r:libressl
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1717760371
+c:15cc530882e1e6f3dc8a77200ee8bd01cb98f53c
+D:libcrypto3=3.3.1-r0 so:libc.musl-aarch64.so.1 so:libcrypto.so.3
+p:so:libssl.so.3=3
+r:openssl
 F:lib
-R:libssl.so.1.1
+R:libssl.so.3
 a:0:0:755
-Z:Q16HQfinqb/BpDvKGWf2xlAgE2pgs=
+Z:Q18uREWoAZXKMcwIC08BwfMLsYaoc=
 F:usr
 F:usr/lib
-R:libssl.so.1.1
+R:libssl.so.3
 a:0:0:777
-Z:Q18j35pe3yp6HOgMih1wlGP1/mm2c=
+Z:Q1oMqe3ENWHl40WtquaRE6llAmBfU=
 
-C:Q1jSI3muRr3d15qAhTCfcKZpDGS0c=
-P:libretls
-V:3.3.4-r2
+C:Q1sdlDq9r9kKVIGZNgDX6mkPZMaHE=
+P:musl
+V:1.2.5-r0
 A:aarch64
-S:28034
-I:81920
-T:port of libtls from libressl to openssl
-U:https://git.causal.agency/libretls/
-L:ISC AND (BSD-3-Clause OR MIT)
-o:libretls
-m:Ariadne Conill <ariadne@dereferenced.org>
-t:1634364270
-c:670bf5a8cc5bc605eede8ca2fd55b50a5c9f8660
-D:ca-certificates-bundle so:libc.musl-aarch64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1
-p:so:libtls.so.2=2.0.3
-F:usr
-F:usr/lib
-R:libtls.so.2
-a:0:0:777
-Z:Q1nNEC9T/t6W+Ecm0DxqMUnRvcT6k=
-R:libtls.so.2.0.3
-a:0:0:755
-Z:Q1Fq/EsbgqgwdkEdTrcMlK0x/xGUo=
-
-C:Q1HgIr1H7AQbvGFNgJNrnGdbCuB9g=
-P:ssl_client
-V:1.34.1-r3
-A:aarch64
-S:4569
-I:24576
-T:EXternal ssl_client for busybox wget
-U:https://busybox.net/
-L:GPL-2.0-only
-o:busybox
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1637629055
-c:2493d4c71a0bd6bbccf8a966c0a9cb25d17882a3
-D:so:libc.musl-aarch64.so.1 so:libtls.so.2
-p:cmd:ssl_client=1.34.1-r3
-i:busybox=1.34.1-r3 libssl1.1
-r:busybox-initscripts
-F:usr
-F:usr/bin
-R:ssl_client
-a:0:0:755
-Z:Q17PrVdIbjSvMgOg4SCboFA7G7YGY=
-
-C:Q1leopRIS92eyIZlPpGUlB964ZyqE=
-P:zlib
-V:1.2.11-r3
-A:aarch64
-S:50492
-I:102400
-T:A compression/decompression Library
-U:https://zlib.net/
-L:Zlib
-o:zlib
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1566810043
-c:388a4fb3640f8ccbd18e105df3ad741dca4247e1
-D:so:libc.musl-aarch64.so.1
-p:so:libz.so.1=1.2.11
-F:lib
-R:libz.so.1
-a:0:0:777
-Z:Q1a2H8hP24ryCAGf8fnc1Nha9IIHc=
-R:libz.so.1.2.11
-a:0:0:755
-Z:Q11WjV4Ssv8sZ3l9gP1PEt8AvcMc0=
-
-C:Q1+guh2qHlSgoXlRlr/wlVdL/KJVc=
-P:apk-tools
-V:2.12.7-r3
-A:aarch64
-S:119802
-I:307200
-T:Alpine Package Keeper - package manager for alpine
-U:https://gitlab.alpinelinux.org/alpine/apk-tools
-L:GPL-2.0-only
-o:apk-tools
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1632557629
-c:1ac3c1bb29eeff083c621cf6b27ad12ab93cb73a
-D:musl>=1.2 ca-certificates-bundle so:libc.musl-aarch64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1
-p:so:libapk.so.3.12.0=3.12.0 cmd:apk=2.12.7-r3
-F:etc
-F:etc/apk
-F:etc/apk/keys
-F:etc/apk/protected_paths.d
-F:lib
-R:libapk.so.3.12.0
-a:0:0:755
-Z:Q1jcmEQwUPq23VNTWcpQL7X93a+84=
-F:sbin
-R:apk
-a:0:0:755
-Z:Q1Y8cFRbbmcVCEMTFg81e6zdN7yrI=
-F:var
-F:var/cache
-F:var/cache/misc
-F:var/lib
-F:var/lib/apk
-
-C:Q1dUVvxqm2Yq5XfcyhB7Y/qWOtT0E=
-P:scanelf
-V:1.3.3-r0
-A:aarch64
-S:36514
-I:94208
-T:Scan ELF binaries for stuff
-U:https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
-L:GPL-2.0-only
-o:pax-utils
-m:Natanael Copa <ncopa@alpinelinux.org>
-t:1634385322
-c:411fa60367236bd3417a358e03d4247129ea41a1
-D:so:libc.musl-aarch64.so.1
-p:cmd:scanelf=1.3.3-r0
-r:pax-utils
-F:usr
-F:usr/bin
-R:scanelf
-a:0:0:755
-Z:Q1HHgErnMspNx41/riGpyX2eRa6lI=
-
-C:Q1zVpOvqusZosxuw4/UtO9AimcQnY=
-P:musl-utils
-V:1.2.2-r7
-A:aarch64
-S:36311
-I:139264
+S:415580
+I:741376
 T:the musl c library (libc) implementation
 U:https://musl.libc.org/
-L:MIT BSD GPL2+
+L:MIT
 o:musl
-m:Timo Teräs <timo.teras@iki.fi>
-t:1632431095
-c:bf5bbfdbf780092f387b7abe401fbfceda90c84d
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1710503016
+c:4fe5bdbe47b100daa6380f81c4c8ea3f99b61362
+p:so:libc.musl-aarch64.so.1=1
+F:lib
+R:ld-musl-aarch64.so.1
+a:0:0:755
+Z:Q1UIWVheISVDBq63RCbV3UU3y+MwU=
+R:libc.musl-aarch64.so.1
+a:0:0:777
+Z:Q14RpiCEfZIqcg1XDcVqp8QEpc9ks=
+
+C:Q1BQWUHHGLpcXMeRjKiOCeK7/RiWc=
+P:musl-utils
+V:1.2.5-r0
+A:aarch64
+S:39340
+I:286720
+T:the musl c library (libc) implementation
+U:https://musl.libc.org/
+L:MIT AND BSD-2-Clause AND GPL-2.0-or-later
+o:musl
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1710503016
+c:4fe5bdbe47b100daa6380f81c4c8ea3f99b61362
 D:scanelf so:libc.musl-aarch64.so.1
-p:cmd:getconf=1.2.2-r7 cmd:getent=1.2.2-r7 cmd:iconv=1.2.2-r7 cmd:ldconfig=1.2.2-r7 cmd:ldd=1.2.2-r7
+p:libc-utils=1.2.5-r0 cmd:getconf=1.2.5-r0 cmd:getent=1.2.5-r0 cmd:iconv=1.2.5-r0 cmd:ldconfig=1.2.5-r0 cmd:ldd=1.2.5-r0
 r:libiconv
 F:sbin
 R:ldconfig
@@ -614,29 +562,82 @@ F:usr
 F:usr/bin
 R:getconf
 a:0:0:755
-Z:Q1UeOlWyqvo3oWA8w48VB+F9RTGcs=
+Z:Q1p8kqJa3rn0YnK/UsXTPTur7bMS0=
 R:getent
 a:0:0:755
-Z:Q1VQ9vsfzgwDCopPvWc4AtnfW1mfk=
+Z:Q12w7FtU8xoxWVYCcXLs/uaqYKJYE=
 R:iconv
 a:0:0:755
-Z:Q1wpSUjSP1I8of8bqNxK1PN3WUep4=
+Z:Q1kT1ISO+CibL/Go9jhsN3E4DGAb8=
 R:ldd
 a:0:0:755
 Z:Q1r+KYty/HCLl4p4dvPt8kCb1mhB0=
 
-C:Q1d7WP4d641KWIgN/qLUQMgu41Lac=
-P:libc-utils
-V:0.7.2-r3
+C:Q1aO0qnRrUwglfFuvEajfWlPUUAXk=
+P:scanelf
+V:1.3.7-r2
 A:aarch64
-S:1485
-I:4096
-T:Meta package to pull in correct libc
-U:https://alpinelinux.org
-L:BSD-2-Clause AND BSD-3-Clause
-o:libc-dev
+S:33669
+I:147456
+T:Scan ELF binaries for stuff
+U:https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+L:GPL-2.0-only
+o:pax-utils
 m:Natanael Copa <ncopa@alpinelinux.org>
-t:1585632275
-c:60424133be2e79bbfeff3d58147a22886f817ce2
-D:musl-utils
+t:1687178519
+c:e65a4f2d0470e70d862ef2b5c412ecf2cb9ad0a6
+D:so:libc.musl-aarch64.so.1
+p:cmd:scanelf=1.3.7-r2
+r:pax-utils
+F:usr
+F:usr/bin
+R:scanelf
+a:0:0:755
+Z:Q1Qp4HAFpgXc96+nKikmAzxsLPsH0=
+
+C:Q1tzzozVVwaIANvhfOMuC/1kObXCQ=
+P:ssl_client
+V:1.36.1-r29
+A:aarch64
+S:5081
+I:81920
+T:EXternal ssl_client for busybox wget
+U:https://busybox.net/
+L:GPL-2.0-only
+o:busybox
+m:Sören Tempel <soeren+alpine@soeren-tempel.net>
+t:1718003507
+c:1747c01fb96905f101c25609011589d28e01cbb8
+D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libssl.so.3
+p:cmd:ssl_client=1.36.1-r29
+i:busybox=1.36.1-r29 libssl3
+r:busybox-initscripts
+F:usr
+F:usr/bin
+R:ssl_client
+a:0:0:755
+Z:Q18Xy52e/9OlWX9dx59QNJ97WXHTE=
+
+C:Q14FTw+/Kyr3OzmLi6OGnrl2aoSzE=
+P:zlib
+V:1.3.1-r1
+A:aarch64
+S:52595
+I:143360
+T:A compression/decompression Library
+U:https://zlib.net/
+L:Zlib
+o:zlib
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1712907652
+c:fad2d175bd85eb4c5566765375392a7394dfbcf2
+D:so:libc.musl-aarch64.so.1
+p:so:libz.so.1=1.3.1
+F:lib
+R:libz.so.1
+a:0:0:777
+Z:Q1IdZs3QiCHWQV7Ve3k69boHQ4Skw=
+R:libz.so.1.3.1
+a:0:0:755
+Z:Q1cJSfW9xHi0VSViBQxDseS2vwFLs=
 
