@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r
 
 echo '##
-## Plug-in for installing small
+## Plug-in for installing small+
 ##
 
 DISTRO_NAME="small+ (https://github.com/smallOS-cyberwarfare/smallPlus)"
@@ -63,23 +63,23 @@ distro_setup() {
         :
 }
 
-' > /data/data/com.termux/files/usr/etc/proot-distro/smallPlus.sh
+' > /data/data/com.termux/files/usr/etc/proot-distro/small+.sh
 
 proot-distro remove small+;
 
 proot-distro install small+;
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r
 
-cp smallPlusFileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus -r;
+cp small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r;
 
 # SMALL_COMMAND IS CHECKED INSIDE SHELL TO DECIDE IF TO PRINT MOTD OR NOT 
 echo '#!/usr/bin/env bash
 
 if [[ "$1" ]]; then
- touch /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus/tmp/.small_command_1;
- proot-distro login small --isolated --fix-low-ports -- /bin/"$@"
- rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/smallPlus/tmp/.small_command_1;
+ touch /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+/tmp/.small_command_1;
+ proot-distro login small+ --isolated --fix-low-ports -- /bin/"$@"
+ rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+/tmp/.small_command_1;
 else
   clear;
   proot-distro login small+ --isolated --fix-low-ports
