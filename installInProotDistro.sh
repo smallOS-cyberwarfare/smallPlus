@@ -71,7 +71,7 @@ proot-distro install small+;
 
 yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r
 
-cp small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r;
+mv small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r;
 
 # SMALL_COMMAND IS CHECKED INSIDE SHELL TO DECIDE IF TO PRINT MOTD OR NOT 
 echo '#!/usr/bin/env bash

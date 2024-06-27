@@ -1,4 +1,4 @@
-# smallPlus
+# small+
 
 Version of Small with preisntalled tools (my main OS)
 
@@ -13,7 +13,7 @@ pkg install proot-distro
 
 ##### Usage
 
-- Login into smallPlus:
+- Login into small+
 ```bash
 small+
 ```
