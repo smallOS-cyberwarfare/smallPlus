@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1719539055,,"x"
+|2,0,1719566342,,"x"
 :q
-|2,0,1719538818,,"q"
+|2,0,1719564712,,"q"
 :q!
 |2,0,1719538732,,"q!"
 :w
@@ -49,284 +49,282 @@ $
 	d
 |3,0,0,0,1,0,1719520674,"d"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1719538773,""
+	  "coc.source.codeium.priority": 1000
+|3,1,1,1,1,0,1719566340,"  \"coc.source.codeium.priority\": 1000"
 "2	LINE	0
-	" Additional mappings
-|3,0,2,1,1,0,1719538772,"\" Additional mappings"
+	1166
+<  "codeium.apiKey": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3RyaW5nIE1hbm9sbyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQWNIVHRjbWxkTE9EcS1aT29UQXIxRFhmSllmc19Pc0JqNGk1Z0JFYnltZmUxa2o9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3MTk1MzIzODcsInVzZXJfaWQiOiIzcTRTbG42akRVVHdKcFJTZ29YTURTYkdIMTQzIiwic3ViIjoiM3E0U2xuNmpEVVR3SnBSU2dvWE1EU2JHSDE0MyIsImlhdCI6MTcxOTUzMjUyMywiZXhwIjoxNzE5NTM2MTIzLCJlbWFpbCI6InN0cmluZ21hbm9sb0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMTQ5MzM2NDg1NDkyNjc0Mjc3NCJdLCJlbWFpbCI6WyJzdHJpbmdtYW5vbG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.D73Iga2b_FWR74tjluarDSJtN8Vi3JVIRzgxfS9o48J3jIklxzMceH1flROES28uhIcIzpvzN6NdedT9y3dB0YoNhIPd1K1fIJv9Auai3NKJiQ7gKQDOp8oNOqrrk_o9492eb6rVt6S5bF-Iaxsiz94zUXEjupu-s4A2GO3JMNlw-W0HIWDRcfuDMlkGgZUb7xekF-5LGHyW7COsyRXOHrFCzUA-UHDRLED37UOQVJTd-jXMvqiVEThbqqsPEE1M7ZV2Jcbp2nhGUVNhe981LBz8lMfETjUSoPZtwe38Z50xaf0ljVy1_axFs0dVCz8HvZqrth38U_kkFfAYglGbxA",
+|3,0,2,1,1,0,1719566339,>1169
+|<"  \"codeium.apiKey\": \"eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc5M2Y3N2Q0N2ViOTBiZjRiYTA5YjBiNWFkYzk2ODRlZTg1NzJlZTYiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiU3RyaW5nIE1hbm9sbyIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQWNIVHRjbWxkTE9EcS1aT29UQXIxRFhmSllmc19Pc0JqNGk1Z0JFYnltZmUxa2o9czk2LWMiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vZXhhMi1mYjE3MCIsImF1ZCI6ImV4YTItZmIxNzAiLCJhdXRoX3RpbWUiOjE3MTk1MzIzODcsInVzZXJfaWQiOiIzcTRTbG42akRVVHdKcFJTZ29YTURTYkdIMTQzIiwic3ViIjoiM3E0U2x
+|<uNmpEVVR3SnBSU2dvWE1EU2JHSDE0MyIsImlhdCI6MTcxOTUzMjUyMywiZXhwIjoxNzE5NTM2MTIzLCJlbWFpbCI6InN0cmluZ21hbm9sb0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnb29nbGUuY29tIjpbIjExMTQ5MzM2NDg1NDkyNjc0Mjc3NCJdLCJlbWFpbCI6WyJzdHJpbmdtYW5vbG9AZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.D73Iga2b_FWR74tjluarDSJtN8Vi3JVIRzgxfS9o48J3jIklxzMceH1flROES28uhIcIzpvzN6NdedT9y3dB0YoNhIPd1K1fIJv9Auai3NKJiQ7gKQDOp8oNOqrrk_o9492eb6rVt6S5bF-Iaxsiz94zUXEjup
+|<u-s4A2GO3JMNlw-W0HIWDRcfuDMlkGgZUb7xekF-5LGHyW7COsyRXOHrFCzUA-UHDRLED37UOQVJTd-jXMvqiVEThbqqsPEE1M7ZV2Jcbp2nhGUVNhe981LBz8lMfETjUSoPZtwe38Z50xaf0ljVy1_axFs0dVCz8HvZqrth38U_kkFfAYglGbxA\","
 "3	LINE	0
-	"xmap <silent> <leader>cf <Plug>(coc-format-selected)
-|3,0,3,1,1,0,1719538771,"\"xmap <silent> <leader>cf <Plug>(coc-format-selected)"
+	  "codeium.enable": true,
+|3,0,3,1,1,0,1719566338,"  \"codeium.enable\": true,"
 "4	LINE	0
-	"nmap <silent> <leader>cf <Plug>(coc-format-selected)
-|3,0,4,1,1,0,1719538770,"\"nmap <silent> <leader>cf <Plug>(coc-format-selected)"
-"5	LINE	0
 	
-|3,0,5,1,1,0,1719538752,""
+|3,0,4,1,1,0,1719538773,""
+"5	LINE	0
+	" Additional mappings
+|3,0,5,1,1,0,1719538772,"\" Additional mappings"
 "6	LINE	0
-	" Key mappings
-|3,0,6,1,1,0,1719538751,"\" Key mappings"
+	"xmap <silent> <leader>cf <Plug>(coc-format-selected)
+|3,0,6,1,1,0,1719538771,"\"xmap <silent> <leader>cf <Plug>(coc-format-selected)"
 "7	LINE	0
-	inoremap <silent> <PageDown> <C-o>:CocCommand <CR>
-|3,0,7,1,1,0,1719538750,"inoremap <silent> <PageDown> <C-o>:CocCommand <CR>"
+	"nmap <silent> <leader>cf <Plug>(coc-format-selected)
+|3,0,7,1,1,0,1719538770,"\"nmap <silent> <leader>cf <Plug>(coc-format-selected)"
 "8	LINE	0
-	nnoremap <silent> <PageUp> :CocCommand <CR>
-|3,0,8,1,1,0,1719538749,"nnoremap <silent> <PageUp> :CocCommand <CR>"
+	
+|3,0,8,1,1,0,1719538752,""
 "9	LINE	0
-	const 
-|3,0,9,1,1,0,1719538357,"const "
+	" Key mappings
+|3,0,9,1,1,0,1719538751,"\" Key mappings"
 "-	CHAR	0
 	" Change colorscheme
 |3,0,36,0,1,0,1719538218,"\" Change colorscheme"
 
 # File marks:
-'0  1  18  ~/test.js
-|4,48,1,18,1719539055,"~/test.js"
-'1  1  18  ~/test.js
-|4,49,1,18,1719538872,"~/test.js"
-'2  159  19  ~/.vimrc
-|4,50,159,19,1719538818,"~/.vimrc"
-'3  1  9  ~/test.js
-|4,51,1,9,1719538802,"~/test.js"
-'4  1  9  ~/test.js
-|4,52,1,9,1719538802,"~/test.js"
-'5  172  0  ~/.vimrc
-|4,53,172,0,1719538782,"~/.vimrc"
-'6  172  0  ~/.vimrc
-|4,54,172,0,1719538782,"~/.vimrc"
-'7  3  0  ~/test.js
-|4,55,3,0,1719538732,"~/test.js"
-'8  3  0  ~/test.js
-|4,56,3,0,1719538732,"~/test.js"
-'9  3  0  ~/test.js
-|4,57,3,0,1719538732,"~/test.js"
+'0  5  0  ~/.vim/coc-settings.json
+|4,48,5,0,1719566342,"~/.vim/coc-settings.json"
+'1  6  0  ~/.vim/coc-settings.json
+|4,49,6,0,1719566152,"~/.vim/coc-settings.json"
+'2  9  0  ~/.vim/coc-settings.json
+|4,50,9,0,1719566152,"~/.vim/coc-settings.json"
+'3  1  0  ~/.vim/coc-settings.json
+|4,51,1,0,1719566078,"~/.vim/coc-settings.json"
+'4  1  0  ~/.vim/coc-settings.json
+|4,52,1,0,1719566078,"~/.vim/coc-settings.json"
+'5  1  0  ~/.vim/coc-settings.json
+|4,53,1,0,1719566078,"~/.vim/coc-settings.json"
+'6  1  0  ~/.vim/coc-settings.json
+|4,54,1,0,1719566078,"~/.vim/coc-settings.json"
+'7  4  1  ~/.vim/coc-settings.json
+|4,55,4,1,1719566069,"~/.vim/coc-settings.json"
+'8  4  1  ~/.vim/coc-settings.json
+|4,56,4,1,1719566069,"~/.vim/coc-settings.json"
+'9  4  1  ~/.vim/coc-settings.json
+|4,57,4,1,1719566069,"~/.vim/coc-settings.json"
 
 # Jumplist (newest first):
+-'  5  0  ~/.vim/coc-settings.json
+|4,39,5,0,1719566342,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1719566335,"~/.vim/coc-settings.json"
+-'  6  0  ~/.vim/coc-settings.json
+|4,39,6,0,1719566152,"~/.vim/coc-settings.json"
+-'  9  0  ~/.vim/coc-settings.json
+|4,39,9,0,1719566152,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1719566141,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1719566078,"~/.vim/coc-settings.json"
+-'  4  1  ~/.vim/coc-settings.json
+|4,39,4,1,1719566069,"~/.vim/coc-settings.json"
+-'  4  1  ~/.vim/coc-settings.json
+|4,39,4,1,1719566069,"~/.vim/coc-settings.json"
+-'  4  1  ~/.vim/coc-settings.json
+|4,39,4,1,1719566069,"~/.vim/coc-settings.json"
+-'  4  1  ~/.vim/coc-settings.json
+|4,39,4,1,1719566069,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1719566041,"~/.vim/coc-settings.json"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  174  0  ~/.vimrc
+|4,39,174,0,1719564712,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1719564698,"~/.vimrc"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719539055,"~/test.js"
 -'  1  18  ~/test.js
 |4,39,1,18,1719539055,"~/test.js"
 -'  1  18  ~/test.js
 |4,39,1,18,1719538872,"~/test.js"
--'  159  19  ~/.vimrc
-|4,39,159,19,1719538818,"~/.vimrc"
--'  159  19  ~/.vimrc
-|4,39,159,19,1719538818,"~/.vimrc"
--'  159  19  ~/.vimrc
-|4,39,159,19,1719538818,"~/.vimrc"
--'  159  19  ~/.vimrc
-|4,39,159,19,1719538818,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538804,"~/.vimrc"
--'  1  9  ~/test.js
-|4,39,1,9,1719538802,"~/test.js"
--'  1  9  ~/test.js
-|4,39,1,9,1719538802,"~/test.js"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  172  0  ~/.vimrc
-|4,39,172,0,1719538782,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538742,"~/.vimrc"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  3  0  ~/test.js
-|4,39,3,0,1719538732,"~/test.js"
--'  1  0  ~/test.js
-|4,39,1,0,1719538714,"~/test.js"
--'  1  0  ~/test.js
-|4,39,1,0,1719538714,"~/test.js"
--'  1  0  ~/test.js
-|4,39,1,0,1719538714,"~/test.js"
--'  1  0  ~/test.js
-|4,39,1,0,1719538714,"~/test.js"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  159  26  ~/.vimrc
-|4,39,159,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  161  26  ~/.vimrc
-|4,39,161,26,1719538711,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1719538672,"~/.vimrc"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  1  14  ~/test.js
-|4,39,1,14,1719538638,"~/test.js"
--'  161  0  ~/.vimrc
-|4,39,161,0,1719538605,"~/.vimrc"
--'  161  0  ~/.vimrc
-|4,39,161,0,1719538605,"~/.vimrc"
--'  161  0  ~/.vimrc
-|4,39,161,0,1719538605,"~/.vimrc"
--'  161  0  ~/.vimrc
-|4,39,161,0,1719538605,"~/.vimrc"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
+-'  1  18  ~/test.js
+|4,39,1,18,1719538872,"~/test.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/test.js
-	*	1719538907	0
-	"	1	18
-	^	1	18
-	.	1	18
-	+	1	38
-	+	1	44
-	+	1	31
-	+	1	38
-	+	1	37
-	+	1	7
-	+	1	5
-	+	1	17
-	+	4	27
-	+	7	0
-	+	1	0
-	+	3	3
-	+	1	18
+> ~/.vim/coc-settings.json
+	*	1719566340	0
+	"	5	0
+	^	6	0
+	.	5	0
+	+	5	2
+	+	5	1
+	+	3	72
+	+	6	0
+	+	3	34
+	+	5	1160
+	+	5	0
 
 > ~/.vimrc
-	*	1719538817	0
-	"	159	19
+	*	1719564709	0
+	"	174	0
 	^	159	20
 	.	172	0
 	+	231	4
@@ -363,12 +361,24 @@ $
 	+	159	0
 	+	172	0
 
-> ~/.vim/coc-settings.json
-	*	1719537068	0
-	"	6	0
-	^	6	0
-	.	5	1
-	+	5	1
+> ~/test.js
+	*	1719538907	0
+	"	1	18
+	^	1	18
+	.	1	18
+	+	1	38
+	+	1	44
+	+	1	31
+	+	1	38
+	+	1	37
+	+	1	7
+	+	1	5
+	+	1	17
+	+	4	27
+	+	7	0
+	+	1	0
+	+	3	3
+	+	1	18
 
 > /root/test.js
 	*	1719521051	0
