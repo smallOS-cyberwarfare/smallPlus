@@ -1,0 +1,34 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.0
+2 info using node@v20.13.1
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/.cache/typescript/5.5/.npmrc
+5 silly config load:file:/home/.npmrc
+6 silly config load:file:/etc/npmrc
+7 verbose title npm install types-registry@latest
+8 verbose argv "install" "--ignore-scripts" "types-registry@latest"
+9 verbose logfile logs-max:10 dir:/home/.npm/_logs/2024-06-28T01_40_29_796Z-
+10 verbose logfile /home/.npm/_logs/2024-06-28T01_40_29_796Z-debug-0.log
+11 silly packumentCache heap:1979973632 maxSize:494993408 maxEntrySize:247496704
+12 silly logfile start cleaning logs, removing 2 files
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/types-registry cache-miss
+15 http fetch GET https://registry.npmjs.org/types-registry attempt 1 failed with ETIMEDOUT
+16 http fetch GET 200 https://registry.npmjs.org/types-registry 14010ms (cache revalidated)
+17 silly packumentCache corgi:https://registry.npmjs.org/types-registry set size:579712 disposed:false
+18 silly idealTree buildDeps
+19 silly fetch manifest types-registry@0.1.685
+20 silly packumentCache full:https://registry.npmjs.org/types-registry cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/types-registry 197ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/types-registry set size:1204022 disposed:false
+23 silly placeDep ROOT types-registry@0.1.685 REPLACE for:  want: 0.1.685
+24 silly reify moves {}
+25 silly audit bulk request { 'types-registry': [ '0.1.685' ] }
+26 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 333ms
+27 silly audit report {}
+28 verbose cwd /home/.cache/typescript/5.5
+29 verbose os Linux 6.2.1-PRoot-Distro
+30 verbose node v20.13.1
+31 verbose npm  v10.8.0
+32 verbose exit 0
+33 info ok

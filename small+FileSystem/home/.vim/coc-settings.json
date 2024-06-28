@@ -1,0 +1,6 @@
+{
+  "suggest.noselect": false,
+  "suggest.enablePreselect": true,
+  "suggest.triggerCompletionWait": 100
+}
+

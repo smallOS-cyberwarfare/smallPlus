@@ -47,3 +47,4 @@ html:sm,,,
 ```
 - nerdtree
 ,n to open files directly from vim 
+- coc.nvim

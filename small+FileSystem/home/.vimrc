@@ -60,16 +60,16 @@ set smartindent
 " Enable auto-pairing of brackets, quotes, etc.
 " inoremap ( ()<Left>
 " inoremap [ []<Left>
-inoremap { {}<Left>
+" inoremap { {}<Left>
 " inoremap ' ''<Left>
 " inoremap " ""<Left>
 " inoremap ` ``<Left>
 
 " Map <Tab> to trigger autocompletion
-inoremap <Tab> <C-n>
+"inoremap <Tab> <C-n>
 
 " Map <Shift+Tab> to go back in autocompletion
-inoremap <S-Tab> <C-p>
+"inoremap <S-Tab> <C-p>
 
 " Enable file explorer
 let g:netrw_banner = 0
@@ -124,8 +124,55 @@ Plug 'mattn/emmet-vim'
 " Add NERDTree plugin
 Plug 'preservim/nerdtree'
 
+" Add coc plugin
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
 " End Vim-Plug config
 call plug#end()
+
+
+" Use tab to autocompletion
+inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
+
+" Use <S-Tab> to go back
+inoremap <silent><expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_global_extensions = [
+      \ 'coc-json',
+      \ 'coc-tsserver',
+      \ 'coc-eslint',
+      \ 'coc-prettier',
+      \ 'coc-python',
+      \ 'coc-sh',
+      \ 'coc-cmake'
+      \]
+
+" Enable real-time autocompletion
+autocmd FileType javascript,c,cpp,c,cpp,objcpp,typescript,json,mocha,python,sh,cmake setl omnifunc=javascriptcomplete#CompleteJS
+
+" Enable diagnostics
+let g:coc_enable_diagnostic_auto_update = 1
+
+" Language-specific settings
+augroup mygroup
+  autocmd!
+  autocmd FileType javascript setl omnifunc=javascriptcomplete#CompleteJS
+  autocmd FileType typescript setl omnifunc=typescriptcomplete#CompleteTS
+  autocmd FileType python setl omnifunc=pythoncomplete#Complete
+  autocmd FileType sh setl omnifunc=shcomplete#Complete
+  autocmd FileType cmake setl omnifunc=cmakecomplete#Complete
+augroup end
+
+" Show floating documentation
+inoremap <silent><expr> <c-space> coc#refresh()
+
+
 
 " Use <Leader>N as alias for :NERDTree
 nmap <Leader>n :NERDTreeToggle<CR>
