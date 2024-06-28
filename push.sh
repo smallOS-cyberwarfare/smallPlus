@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [[ -d small+FileSystem/projects ]]; then
+  echo 'WARNING: Trying to push personal distro to github.'
+  exit
+fi
+
 if [[ -d small+FileSystem  ]]; then
   rm small+FileSystem/root/.bash_history 2>/dev/null 
   rm small+FileSystem/home/.npm -r 2>/dev/null
