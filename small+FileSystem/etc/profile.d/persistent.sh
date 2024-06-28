@@ -37,6 +37,8 @@ addPath "/sbin"
 addPath "/bin"
 unset -f addPath
 
+
+
 yellow=$'\e[1;33m';
 green=$'\e[1;32m';
 reset=$'\e[0m';
@@ -83,6 +85,34 @@ alias gitc='git clone';
 alias 775='chmod 775';
 alias h='history';
 alias q='exit';
+
+extract() {
+  if [ -f "$1" ] ; then
+    case "$1" in
+      *.tar.bz2)   tar xjf "$1"   ;;
+      *.tar.gz)    tar xzf "$1"   ;;
+      *.bz2)       bunzip2 "$1"   ;;
+      *.rar)       unrar e "$1"   ;;
+      *.gz)        gunzip "$1"    ;;
+      *.tar)       tar xvf "$1"   ;;
+      *.tbz2)      tar xjf "$1"   ;;
+      *.tgz)       tar xzf "$1"   ;;
+      *.zip)       unzip "$1"     ;;
+      *.Z)         uncompress "$1";;
+      *.7z)        7z x "$1"      ;;
+      *)           echo "'$1' unable to find extension" ;;
+    esac
+  else
+    echo "'$1' not a file"
+  fi
+}
+
+search() {
+  grep -r "$1" . --color=auto
+}
+
+
+
 
 if [ ! -f "/tmp/.small_command_1" ]; then
   clear
