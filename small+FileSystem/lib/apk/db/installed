@@ -1694,6 +1694,21 @@ R:libgmp.so.10.5.0
 a:0:0:755
 Z:Q1j+zTo/R+8lgiNg8O89GBUET9Y0E=
 
+C:Q176AqiJa+9UEYI36X7+JtFqwwa40=
+P:gnupg
+V:2.4.5-r0
+A:aarch64
+S:1496
+I:4096
+T:GNU Privacy Guard 2 - meta package for full GnuPG suite
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gpg=2.4.5-r0 gpg-agent=2.4.5-r0 gpg-wks-server=2.4.5-r0 gpgsm=2.4.5-r0 gpgv=2.4.5-r0 gnupg-dirmngr=2.4.5-r0 gnupg-utils=2.4.5-r0 gnupg-wks-client=2.4.5-r0
+
 C:Q1vhtRUqWiLRIOdn2OEOiLzxut3Ig=
 P:gnupg-dirmngr
 V:2.4.5-r0
@@ -1776,6 +1791,84 @@ R:keyboxd
 a:0:0:755
 Z:Q1e2eRDGbYnJsT1roOKJfM0nosO5w=
 
+C:Q1LggVqtOZWmpCBs+i8kUm2C3rN+Q=
+P:gnupg-utils
+V:2.4.5-r0
+A:aarch64
+S:359188
+I:1110016
+T:GNU Privacy Guard 2 - utility programs
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+k:100
+D:so:libassuan.so.0 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libksba.so.8 so:libz.so.1
+p:cmd:addgnupghome=2.4.5-r0 cmd:applygnupgdefaults=2.4.5-r0 cmd:gpg-card=2.4.5-r0 cmd:gpgparsemail=2.4.5-r0 cmd:gpgsplit=2.4.5-r0 cmd:gpgtar=2.4.5-r0 cmd:kbxutil=2.4.5-r0 cmd:watchgnupg=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg-card
+a:0:0:755
+Z:Q1nXnFHsCys/dj04yWue6RCZGR14A=
+R:gpgparsemail
+a:0:0:755
+Z:Q1kqkNN5SW8wTZ36KU+mt/zbqMuPc=
+R:gpgsplit
+a:0:0:755
+Z:Q1MDWdnbhjPQ4KDV0gtejnM+Sj/I8=
+R:gpgtar
+a:0:0:755
+Z:Q1g3Kmvyg2BOKGDKYgAitJfv9pDSQ=
+R:kbxutil
+a:0:0:755
+Z:Q16bJsB7WlxutfEwvRsv55ZuXpxAk=
+R:watchgnupg
+a:0:0:755
+Z:Q11RvDOqk/+67FL5R4TJQjLRry6vs=
+F:usr/libexec
+R:gpg-auth
+a:0:0:755
+Z:Q1CxRwkX2eCtrQQUxJTscXW/Yxrcg=
+R:gpg-pair-tool
+a:0:0:755
+Z:Q1Tu726YdTbhosQDNhxuVKvPDiHeM=
+F:usr/sbin
+R:addgnupghome
+a:0:0:755
+Z:Q1779bdL56ry2jOnQrVlLgJAjaex8=
+R:applygnupgdefaults
+a:0:0:755
+Z:Q1pZkBLvW8vjWV7U6749SdQJrJF+Q=
+
+C:Q1eN0Ir/xcpsrw2sfVdFA8uZx3ibM=
+P:gnupg-wks-client
+V:2.4.5-r0
+A:aarch64
+S:87246
+I:221184
+T:GNU Privacy Guard 2 - Web Key Service client
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gpg=2.4.5-r0 gpg-agent=2.4.5-r0 gnupg-dirmngr=2.4.5-r0 so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+p:cmd:gpg-wks-client=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg-wks-client
+a:0:0:755
+Z:Q12FTOOOlugY+HW7zaAB+WyNN0Zuc=
+F:usr/libexec
+R:gpg-wks-client
+a:0:0:755
+Z:Q1ZjsKdqdsDphC4VTJM8WBJESmghc=
+
 C:Q1qvLieCcjzXZicmXFgt6D0g7xvNo=
 P:gnutls
 V:3.8.5-r0
@@ -1825,6 +1918,112 @@ Z:Q1BLRWPFViWZUkT4TFZ/oLAokic6w=
 R:gpg2
 a:0:0:777
 Z:Q1nbZVSEWM6zcC245436wEplGm5QM=
+
+C:Q1bow2n1nYX1eHtiwMMHC36OCZySE=
+P:gpg-agent
+V:2.4.5-r0
+A:aarch64
+S:319916
+I:847872
+T:GNU Privacy Guard 2 - cryptographic agent
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gnupg-gpgconf=2.4.5-r0 so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libnpth.so.0
+p:cmd:gpg-agent=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg-agent
+a:0:0:755
+Z:Q1fmDDvWEY5e0HlNU2cC3O63tsMLs=
+F:usr/libexec
+R:gpg-check-pattern
+a:0:0:755
+Z:Q1sTE17UXOnbVhApA3EzPboMV5cqI=
+R:gpg-preset-passphrase
+a:0:0:755
+Z:Q1rdNXM2LahV9yz6LDJeJKc+gM2Es=
+R:gpg-protect-tool
+a:0:0:755
+Z:Q175y/c3kD8sOBi+mEXNzGiYcCvk0=
+F:usr/share
+F:usr/share/gnupg
+R:help.txt
+Z:Q1gxh0gQSDC4ZX5gZrwKts4gO6g7w=
+
+C:Q1WM4A8e03DpU6CDbVQypwFtDEKyM=
+P:gpg-wks-server
+V:2.4.5-r0
+A:aarch64
+S:75998
+I:212992
+T:GNU Privacy Guard 2 - Web Key Service server
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gpg=2.4.5-r0 gpg-agent=2.4.5-r0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+p:cmd:gpg-wks-server=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg-wks-server
+a:0:0:755
+Z:Q1xt0dSsDCHXAVS1kdUmNWcncpnQg=
+
+C:Q1Jc2TMUMqbC10YWyNESsS/ACWdcU=
+P:gpgsm
+V:2.4.5-r0
+A:aarch64
+S:236658
+I:548864
+T:GNU Privacy Guard 2 - S/MIME version
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gnupg-gpgconf=2.4.5-r0 so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libksba.so.8 so:libnpth.so.0
+p:cmd:gpgsm=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpgsm
+a:0:0:755
+Z:Q1hwZ88oq+2WnkB737h4PrQr1Cwf8=
+
+C:Q1NmMuqGDL3WsjOpZdLzOOM+5o96k=
+P:gpgv
+V:2.4.5-r0
+A:aarch64
+S:223355
+I:479232
+T:GNU Privacy Guard 2 - signature verification only
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+k:100
+D:so:libassuan.so.0 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libnpth.so.0 so:libz.so.1
+p:cmd:gpgv2=2.4.5-r0 cmd:gpgv=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpgv
+a:0:0:755
+Z:Q1r8c7W9bcyfiWXkklSb3hq4E7R0c=
+R:gpgv2
+a:0:0:777
+Z:Q1VtNc3RBPLOR5pTC5enbCFUU6Ydo=
 
 C:Q1ZbbmMB/S94va2nvN/xxnJz6RSwQ=
 P:icu-data-en

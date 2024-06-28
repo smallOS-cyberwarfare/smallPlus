@@ -34,6 +34,7 @@ small+
 - qjs
 - js
 - gpg
+- gpg-agent
 
 
 

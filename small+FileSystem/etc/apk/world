@@ -5,6 +5,7 @@ apk-tools
 bash
 busybox
 git
+gnupg
 gpg
 jq
 libc-utils
