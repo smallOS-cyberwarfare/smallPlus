@@ -56,6 +56,9 @@ export HISTFILESIZE=20000;
 export HISTCONTROL=ignoreboth;
 export EDITOR='vim'
 
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
 
 alias ls='ls --color=auto';
 alias dir='dir --color=auto';
