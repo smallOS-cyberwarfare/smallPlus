@@ -7,14 +7,14 @@ for i in `env | sed 's/=.*//'` ; do
 done
 
 export HOME="/home"
-export SHELL=/bin/sh
+export SHELL=/bin/bash
 export PATH="";
 export USER=root
 export PAGER=less
 export CHARSET=UTF-8
 export LANG=C.UTF-8
 export TERM=xterm-256color
-export EDITOR=vi
+export EDITOR=vim
 export LC_COLLATE=C
 export _=/usr/bin/env
 
@@ -47,11 +47,14 @@ which bash > /dev/null &&
 shopt -s checkwinsize \
 shopt -s cdable_vars \
 shopt -s autocd \
+shopt -s checkwinsize \
 shopt -s histappend;
 
 export PROMPT_COMMAND='history -a';
 export HISTSIZE=10000;
 export HISTFILESIZE=20000;
+export HISTCONTROL=ignoreboth;
+export EDITOR='vim'
 
 
 alias ls='ls --color=auto';
@@ -81,4 +84,5 @@ if [ ! -f "/tmp/.small_command_1" ]; then
   clear
   cat /etc/motd
 fi
+
 
