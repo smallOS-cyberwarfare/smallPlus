@@ -5,7 +5,7 @@ if [[ -d ./small+FileSystem ]]; then
   exit;
 fi
 
-git clone https://github.com/smallOS-cyberwarfare/smallPlus/tree/master/small%2BFileSystem
+git clone https://github.com/smallOS-cyberwarfare/smallPlus
 
 mv smallPlus/small+FileSystem ./
 
