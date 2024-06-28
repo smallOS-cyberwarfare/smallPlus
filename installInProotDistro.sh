@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r 2>/dev/null
+
+yes | rm -i /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r 2>/dev/null
 
 echo '##
 ## Plug-in for installing small+
