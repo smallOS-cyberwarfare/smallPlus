@@ -83,7 +83,7 @@ alias .....='cd ../../../..';
 alias pserv='python -m http.server';
 alias nserv='http-server'
 alias gitc='git clone';
-alias 775='chmod +775';
+alias 775='chmod 775';
 alias h='history';
 alias q='exit';
 

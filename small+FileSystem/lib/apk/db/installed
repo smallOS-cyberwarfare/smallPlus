@@ -5626,6 +5626,33 @@ R:libpcre2-posix.so.3.0.5
 a:0:0:755
 Z:Q1SUjlv1NLInyR+o9ju7A8dO845jk=
 
+C:Q1Wg6q9IQq6zF7Z8QMiUnbLUQMz7g=
+P:quickjs
+V:0.20240113-r0
+A:aarch64
+S:936892
+I:1990656
+T:Small and embeddable Javascript engine
+U:https://bellard.org/quickjs/
+L:MIT
+o:quickjs
+m:Patrycja Rosa <alpine@ptrcnull.me>
+t:1707934461
+c:27a8f649949c36bfc3e45854e08c48a8eb06e07c
+D:so:libc.musl-aarch64.so.1
+p:cmd:qjs=0.20240113-r0 cmd:qjsc=0.20240113-r0 cmd:qjscalc=0.20240113-r0
+F:usr
+F:usr/bin
+R:qjs
+a:0:0:755
+Z:Q15R6C3EWM1F5Mrn/OdBpOMwKFk5A=
+R:qjsc
+a:0:0:755
+Z:Q1Y9qGfR2tlL7MBct42AWspFhvK/o=
+R:qjscalc
+a:0:0:777
+Z:Q16afqr+u7lHrjwOASQUYRRnqM1gE=
+
 C:Q1JGbt6t9G7AGyQCeL3mVoAbAJI6s=
 P:readline
 V:8.2.10-r0

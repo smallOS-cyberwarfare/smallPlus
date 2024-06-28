@@ -12,5 +12,6 @@ libssl1.1@testing
 nodejs
 npm
 openssl
+quickjs
 tree
 vim
