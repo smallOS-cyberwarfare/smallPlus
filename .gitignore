@@ -1,9 +1,10 @@
-*.ash_history                               # History of commands run in ash shell
-*.bash_history                              # History of commands run in ash shell
+*.ash_history
+*.bash_history
 *.bashrc                                    
-small+FileSystem/var/cache/apk/             # All available APK packages 
-small+FileSystem/home/.npm                  # Cache and logs
-small+FileSystem/bin/password.txt           $ tgbot password
-small+FileSystem/bin/token.txt              # tgbot telegram api token
-small+FileSystem/home/.codeium/bin/974fba83e340c3ff6491e384bb6787236ed887be/language_server_linux_arm
+small+FileSystem/var/cache/apk/
+small+FileSystem/home/.npm
+small+FileSystem/home/.node_repl_history
+small+FileSystem/bin/password.txt
+small+FileSystem/bin/token.txt
 small+FileSystem/home/.viminfo
+
