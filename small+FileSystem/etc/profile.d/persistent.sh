@@ -6,6 +6,10 @@ for i in `env | sed 's/=.*//'` ; do
     unset $i
 done
 
+export TIMEFORMAT='%E elapsed'
+TIME_CMD_PREFIX='/usr/bin/time -p '
+
+
 export HOME="/home"
 export SHELL=/bin/bash
 export PATH="";

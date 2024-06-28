@@ -30,6 +30,7 @@ small+
 - git
 - tgbot
 - vim
+- 7z
 
 
 

@@ -1,3 +1,29 @@
+C:Q1j7jCELB97DOS868qCRVL3iPvQYE=
+P:7zip
+V:23.01-r0
+A:aarch64
+S:901151
+I:1982464
+T:File archiver with a high compression ratio
+U:https://7-zip.org/
+L:LGPL-2.0-only
+o:7zip
+m:Alex Xu (Hello71) <alex_y_xu@yahoo.ca>
+t:1688146859
+c:da4780262417a9446b7d13fe9bb7e83c54edb53d
+k:100
+D:so:libc.musl-aarch64.so.1 so:libgcc_s.so.1 so:libstdc++.so.6
+p:7zip-virtual p7zip=23.01-r0 cmd:7z=23.01-r0 cmd:7zz=23.01-r0
+r:p7zip
+F:usr
+F:usr/bin
+R:7z
+a:0:0:777
+Z:Q156LlmSQKLsgZCRhBJcBhzclbyIc=
+R:7zz
+a:0:0:755
+Z:Q1mCYwTQKa885lmLQtbKhovLAKl3U=
+
 C:Q110HuHgLp5p7FpuXBQ1I8Uc6Uzy8=
 P:ada-libs
 V:2.7.8-r0
