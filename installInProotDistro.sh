@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r 2>/dev/null
 
 echo '##
 ## Plug-in for installing small+
@@ -65,13 +65,13 @@ distro_setup() {
 
 ' > /data/data/com.termux/files/usr/etc/proot-distro/small+.sh
 
-proot-distro remove small+;
+proot-distro remove small+ 2>/dev/null
 
-proot-distro install small+;
+proot-distro install small+ 2>/dev/null
 
-yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r
+yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r 2>/dev/null
 
-mv small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r;
+mv small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ 2>/dev/null
 
 # SMALL_COMMAND IS CHECKED INSIDE SHELL TO DECIDE IF TO PRINT MOTD OR NOT 
 echo '#!/usr/bin/env bash
