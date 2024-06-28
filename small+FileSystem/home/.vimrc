@@ -121,10 +121,6 @@ call plug#begin('~/.vim/plugged')
 " Add emmet plugin
 Plug 'mattn/emmet-vim'
 
-" Add Codeium plugin
-Plug 'Exafunction/codeium.vim'
-" :Codeium Auth
-
 " Add NERDTree plugin
 Plug 'preservim/nerdtree'
 
