@@ -1023,6 +1023,36 @@ R:certs
 a:0:0:777
 Z:Q1qE3WqZ1tRpwrmptYdQcZwzvJgds=
 
+C:Q1TmUXK4+d0Q4sMp9RQTETxzE7WaE=
+P:gdbm
+V:1.23-r1
+A:aarch64
+S:33043
+I:151552
+T:GNU dbm is a set of database routines that use extensible hashing
+U:https://www.gnu.org/software/gdbm/
+L:GPL-3.0-or-later
+o:gdbm
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1681228881
+c:84a227baf001b6e0208e3352b294e4d7a40e93de
+D:so:libc.musl-aarch64.so.1
+p:so:libgdbm.so.6=6.0.0 so:libgdbm_compat.so.4=4.0.0
+F:usr
+F:usr/lib
+R:libgdbm.so.6
+a:0:0:777
+Z:Q1CKY9K4UjuoyU/5G4YvjM1rK4KWQ=
+R:libgdbm.so.6.0.0
+a:0:0:755
+Z:Q1+HHTSY7LDKVNAhH8v0ybgxXHVwI=
+R:libgdbm_compat.so.4
+a:0:0:777
+Z:Q1gAXbe6uP4qoUIF/4s/cU1HHiJ5M=
+R:libgdbm_compat.so.4.0.0
+a:0:0:755
+Z:Q1ivGizmLUv1fxh8Fta+8xxKbCHDk=
+
 C:Q1kX+NvyooVtJ493Frc6i42KSdfIY=
 P:git
 V:2.45.2-r0
@@ -1639,6 +1669,163 @@ F:usr/share/git-core/templates/info
 R:exclude
 Z:Q1yHnfAV2XYVBQr6e5ZB4zUqHnAaw=
 
+C:Q1ZjBFgapaJvBkFxr0MR4jA8c7WYY=
+P:gmp
+V:6.3.0-r1
+A:aarch64
+S:223174
+I:475136
+T:free library for arbitrary precision arithmetic
+U:https://gmplib.org/
+L:LGPL-3.0-or-later OR GPL-2.0-or-later
+o:gmp
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1716189339
+c:6867589a8fb1c69352bf1c80d48521372194587d
+D:so:libc.musl-aarch64.so.1
+p:so:libgmp.so.10=10.5.0
+r:gmp5
+F:usr
+F:usr/lib
+R:libgmp.so.10
+a:0:0:777
+Z:Q1JEuHp66sH4SOjEjeY3tQX8+Ki5g=
+R:libgmp.so.10.5.0
+a:0:0:755
+Z:Q1j+zTo/R+8lgiNg8O89GBUET9Y0E=
+
+C:Q1vhtRUqWiLRIOdn2OEOiLzxut3Ig=
+P:gnupg-dirmngr
+V:2.4.5-r0
+A:aarch64
+S:320273
+I:831488
+T:GNU Privacy Guard 2 - network certificate management service
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:gnupg-gpgconf=2.4.5-r0 so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgnutls.so.30 so:libgpg-error.so.0 so:libksba.so.8 so:liblber.so.2 so:libldap.so.2 so:libnpth.so.0
+p:dirmngr=2.4.5-r0 cmd:dirmngr-client=2.4.5-r0 cmd:dirmngr=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:dirmngr
+a:0:0:755
+Z:Q14JCSyeSuYojn1k1qojlAa/iSTUA=
+R:dirmngr-client
+a:0:0:755
+Z:Q1QFMELS4P4C2Q4zG+IgrFfZoFAJw=
+F:usr/libexec
+R:dirmngr_ldap
+a:0:0:755
+Z:Q1iK6Gwlh8Wki74jRt51cLnbubQgs=
+F:usr/share
+F:usr/share/gnupg
+R:sks-keyservers.netCA.pem
+Z:Q1zob9vAmeVgfqihSddgswxyXimeY=
+
+C:Q1iFSUSh3i8LYK0f9PpGM4CGK8bNo=
+P:gnupg-gpgconf
+V:2.4.5-r0
+A:aarch64
+S:119004
+I:299008
+T:GNU Privacy Guard 2 - core configuration utilities
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:pinentry so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0
+p:gpgconf=2.4.5-r0 cmd:gpg-connect-agent=2.4.5-r0 cmd:gpgconf=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg-connect-agent
+a:0:0:755
+Z:Q1JwX87bNYQOh8SvMz7Z6wc7/vPV8=
+R:gpgconf
+a:0:0:755
+Z:Q1XNUoTwZMA7w9styi8j3MLc14XmA=
+F:usr/share
+F:usr/share/gnupg
+R:distsigkey.gpg
+Z:Q1I8Fa0r7xKWSRmLkJ6rSINQiqHkU=
+
+C:Q18K5SGC8P93WGlVsQHpSAq9pVPl0=
+P:gnupg-keyboxd
+V:2.4.5-r0
+A:aarch64
+S:113703
+I:278528
+T:GNU Privacy Guard 2 - keyboxd manager
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+D:so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libksba.so.8 so:libnpth.so.0 so:libsqlite3.so.0
+F:usr
+F:usr/libexec
+R:keyboxd
+a:0:0:755
+Z:Q1e2eRDGbYnJsT1roOKJfM0nosO5w=
+
+C:Q1qvLieCcjzXZicmXFgt6D0g7xvNo=
+P:gnutls
+V:3.8.5-r0
+A:aarch64
+S:874688
+I:1990656
+T:TLS protocol implementation
+U:https://www.gnutls.org/
+L:LGPL-2.1-or-later
+o:gnutls
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1715753443
+c:41999ae7513c661dbca0a5ce365e130b3de7b046
+D:so:libc.musl-aarch64.so.1 so:libgmp.so.10 so:libhogweed.so.6 so:libidn2.so.0 so:libnettle.so.8 so:libp11-kit.so.0 so:libtasn1.so.6 so:libunistring.so.5
+p:so:libgnutls.so.30=30.39.0
+F:usr
+F:usr/lib
+R:libgnutls.so.30
+a:0:0:777
+Z:Q1Zgr3oszajWOG1InyCbiR6XYiBiE=
+R:libgnutls.so.30.39.0
+a:0:0:755
+Z:Q1Du+IjAHw/HwDD4Nl8w57hOnL66g=
+
+C:Q1JfljWz8DZIr8jk51fShqybcH9Ms=
+P:gpg
+V:2.4.5-r0
+A:aarch64
+S:476724
+I:1019904
+T:GNU Privacy Guard 2 - public key operations only
+U:https://www.gnupg.org/
+L:GPL-3.0-or-later
+o:gnupg
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711086402
+c:cda99956f8c2da6e5ba2bf7c5aef432b226016c2
+k:100
+D:gnupg-dirmngr=2.4.5-r0 gnupg-gpgconf=2.4.5-r0 gnupg-keyboxd=2.4.5-r0 so:libassuan.so.0 so:libbz2.so.1 so:libc.musl-aarch64.so.1 so:libgcrypt.so.20 so:libgpg-error.so.0 so:libnpth.so.0 so:libsqlite3.so.0 so:libz.so.1
+p:cmd:gpg2=2.4.5-r0 cmd:gpg=2.4.5-r0
+r:gnupg
+F:usr
+F:usr/bin
+R:gpg
+a:0:0:755
+Z:Q1BLRWPFViWZUkT4TFZ/oLAokic6w=
+R:gpg2
+a:0:0:777
+Z:Q1nbZVSEWM6zcC245436wEplGm5QM=
+
 C:Q1ZbbmMB/S94va2nvN/xxnJz6RSwQ=
 P:icu-data-en
 V:74.2-r0
@@ -1735,6 +1922,30 @@ R:libjq.so.1.0.4
 a:0:0:755
 Z:Q1z9y0RIz3K+I76QXuGNpxkBRbAOU=
 
+C:Q1Ub3ukXfoU/KFnkld+tpictzmxeE=
+P:libassuan
+V:2.5.7-r0
+A:aarch64
+S:33309
+I:147456
+T:IPC library used by some GnuPG related software
+U:https://www.gnupg.org/software/libassuan/index.html
+L:LGPL-2.1-or-later
+o:libassuan
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711353910
+c:5ed703d391c3568bcfe03ecd27eacb943383337c
+D:so:libc.musl-aarch64.so.1 so:libgpg-error.so.0
+p:so:libassuan.so.0=0.8.7
+F:usr
+F:usr/lib
+R:libassuan.so.0
+a:0:0:777
+Z:Q1v9isK3NXwEn8XyPHSM0Mf5mV4wc=
+R:libassuan.so.0.8.7
+a:0:0:755
+Z:Q1DgCflftSQ8x0VzYyVHlL40lGnHo=
+
 C:Q1EyrERepYybPhpxdy8x9S9TjvZmw=
 P:libbase64
 V:0.5.2-r0
@@ -1758,6 +1969,30 @@ Z:Q13GMrHgC/pZiGUwmiNxA2gkoU79k=
 R:libbase64.so.0.5.2
 a:0:0:755
 Z:Q1NiXn1ucONLhqer2dhW72PJb5z0w=
+
+C:Q1q5/iLR4DngbAR1sJeoNLk11sUaI=
+P:libbz2
+V:1.0.8-r6
+A:aarch64
+S:35677
+I:86016
+T:Shared library for bz2
+U:https://sourceware.org/bzip2/
+L:bzip2-1.0.6
+o:bzip2
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1684120357
+c:33283848034c9885d984c8e8697c645c57324938
+D:so:libc.musl-aarch64.so.1
+p:so:libbz2.so.1=1.0.8
+F:usr
+F:usr/lib
+R:libbz2.so.1
+a:0:0:777
+Z:Q1s5/2NO/yHONilnjE8UjpDh3bO+0=
+R:libbz2.so.1.0.8
+a:0:0:755
+Z:Q13X2i40j3QlF+741zX73wM0vEBIs=
 
 C:Q1DwvA8ElPEixwfp9dWK6hrN1HJJc=
 P:libcrypto1.1
@@ -1921,6 +2156,30 @@ R:libexpat.so.1.9.2
 a:0:0:755
 Z:Q1gCqeGHjsQnhXKua47e7xcIsZ0es=
 
+C:Q1eUEpoutkOUfOdG9wFbfmPkf8+Lo=
+P:libffi
+V:3.4.6-r0
+A:aarch64
+S:17583
+I:81920
+T:portable, high level programming interface to various calling conventions.
+U:https://sourceware.org/libffi/
+L:MIT
+o:libffi
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1709197417
+c:507ef4c109e5e71cee73fa501ab188c6092e763c
+D:so:libc.musl-aarch64.so.1
+p:so:libffi.so.8=8.1.4
+F:usr
+F:usr/lib
+R:libffi.so.8
+a:0:0:777
+Z:Q1Zi4DXg7kWwOrMcKuNhj1rkdBBMY=
+R:libffi.so.8.1.4
+a:0:0:755
+Z:Q1AwFdBQbt0qwM6B2XK7404jui180=
+
 C:Q1Wmx5uhF39oStUJR5md4gEm5QeIo=
 P:libgcc
 V:13.2.1_git20240309-r0
@@ -1941,6 +2200,58 @@ F:usr
 F:usr/lib
 R:libgcc_s.so.1
 Z:Q1haXSrgCZHF/e0wWzQLYwFq399ec=
+
+C:Q1MeLEXSdgKjPs44L9TfsTv0MJI30=
+P:libgcrypt
+V:1.10.3-r0
+A:aarch64
+S:421883
+I:950272
+T:General purpose crypto library based on the code used in GnuPG
+U:https://www.gnupg.org/
+L:LGPL-2.1-or-later AND GPL-2.0-or-later
+o:libgcrypt
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1710257622
+c:fc95c59998285564fbcb0bfb2443898c62e10171
+D:so:libc.musl-aarch64.so.1 so:libgpg-error.so.0
+p:so:libgcrypt.so.20=20.4.3
+F:usr
+F:usr/lib
+R:libgcrypt.so.20
+a:0:0:777
+Z:Q1HQuN1ak6+94C0bp+a2UZnBzfz0g=
+R:libgcrypt.so.20.4.3
+a:0:0:755
+Z:Q1Nl9keDBQ98lI5kPbyVTCykeWNIk=
+
+C:Q1pPoHRtleQ5laXR5MHeUdvIH4cTI=
+P:libgpg-error
+V:1.49-r0
+A:aarch64
+S:72844
+I:221184
+T:Support library for libgcrypt
+U:https://www.gnupg.org/
+L:GPL-2.0-or-later AND LGPL-2.1-or-later
+o:libgpg-error
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1715155587
+c:f7296e8ba2c6e63b0bcca9970da33d5c40514a14
+D:so:libc.musl-aarch64.so.1
+p:so:libgpg-error.so.0=0.36.0 cmd:gpg-error=1.49-r0
+F:usr
+F:usr/bin
+R:gpg-error
+a:0:0:755
+Z:Q1zuzMfDzQ/QXeNq2Pq0v/hgcEHRE=
+F:usr/lib
+R:libgpg-error.so.0
+a:0:0:777
+Z:Q1PJk9Ny9oV25vle+PR3xG3S91cHg=
+R:libgpg-error.so.0.36.0
+a:0:0:755
+Z:Q1bLd9PZq9N9fiynBB5J3GqKwCMOU=
 
 C:Q1gwnzqOG3/cVOrrsFlKytaTX88pE=
 P:libidn2
@@ -1965,6 +2276,62 @@ Z:Q1zWJFGHJoB28flxvcZ6l/It9e9M0=
 R:libidn2.so.0.4.0
 a:0:0:755
 Z:Q1M9zDept/jiP7SZkQU1WwEpWIBp4=
+
+C:Q1O8d2w82zAREgEgzRP6PBuQjjwMQ=
+P:libksba
+V:1.6.6-r0
+A:aarch64
+S:96406
+I:278528
+T:Libksba is a CMS and X.509 access library
+U:https://www.gnupg.org/software/libksba/index.html
+L:LGPL-3.0-only AND GPL-2.0-only AND GPL-3.0-only
+o:libksba
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1709197455
+c:3da28fe9356d5bccfb2fe214254c85070c18e9d1
+D:so:libc.musl-aarch64.so.1 so:libgpg-error.so.0
+p:so:libksba.so.8=8.14.6
+F:usr
+F:usr/lib
+R:libksba.so.8
+a:0:0:777
+Z:Q1x8yUwzC/tZlqqNOj1IEuHVGSN1E=
+R:libksba.so.8.14.6
+a:0:0:755
+Z:Q1Euy8+HD+F3+g/8/oFsxw5lWpB/k=
+
+C:Q15iOjg6ZNA6O9assgxRQtD1aVSBQ=
+P:libldap
+V:2.6.7-r0
+A:aarch64
+S:167649
+I:491520
+T:OpenLDAP libraries
+U:https://www.openldap.org/
+L:OLDAP-2.8
+o:openldap
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1706815127
+c:cbfb2d981b5c620a70e4ab5428eadf20d466e4dd
+D:so:libc.musl-aarch64.so.1 so:libcrypto.so.3 so:libsasl2.so.3 so:libssl.so.3
+p:so:liblber.so.2=2.0.200 so:libldap.so.2=2.0.200
+F:etc
+F:etc/openldap
+R:ldap.conf
+Z:Q1KDuewGxvm2DyOVAOiV7WZarodoM=
+F:usr
+F:usr/lib
+R:liblber.so.2
+a:0:0:777
+Z:Q1RioeNUpn/9zvaBqHdVSoMRFR4n0=
+R:liblber.so.2.0.200
+Z:Q15inZ5nzy8PhVoI5vHt43QTA6rSU=
+R:libldap.so.2
+a:0:0:777
+Z:Q1+fsmXcdzdEh8WIhudwPCTZRhTk0=
+R:libldap.so.2.0.200
+Z:Q15k1Fn5CCpkvxpXKaffAsWlR+xH4=
 
 C:Q1iHQjiKqQuG9hY9UwlLNMQEx7XCs=
 P:libncursesw
@@ -2013,6 +2380,59 @@ Z:Q12ex75lbc3hzvFGh3oTzq3KFRNnA=
 R:libpsl.so.5.3.5
 a:0:0:755
 Z:Q1QjF8pO2YNhd9e58Bbq62bX4h2LM=
+
+C:Q1kTKUyUCb3md9J2o+anVFxtwRAYw=
+P:libsasl
+V:2.1.28-r6
+A:aarch64
+S:78430
+I:360448
+T:Cyrus Simple Authentication and Security Layer (SASL) library
+U:https://www.cyrusimap.org/sasl/
+L:BSD-3-Clause-Attribution AND BSD-4-Clause
+o:cyrus-sasl
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1708876745
+c:49eaddc4f7264d97ca4565c5075752b10b3a9dcb
+D:so:libc.musl-aarch64.so.1 so:libgdbm.so.6
+p:so:libsasl2.so.3=3.0.0
+r:cyrus-sasl-plain
+F:usr
+F:usr/lib
+R:libsasl2.so.3
+a:0:0:777
+Z:Q1FZOMjN3ZPW0zp9O2eZ+bTpacH3I=
+R:libsasl2.so.3.0.0
+a:0:0:755
+Z:Q1g/77yI89uCm7Y8t8+xNAFkYWErA=
+F:usr/lib/sasl2
+R:libanonymous.so
+a:0:0:777
+Z:Q1wG0T/abhtSYIVnUYZLvG5JDyE7Q=
+R:libanonymous.so.3
+a:0:0:777
+Z:Q1wG0T/abhtSYIVnUYZLvG5JDyE7Q=
+R:libanonymous.so.3.0.0
+a:0:0:755
+Z:Q18Auc8MFJBrQUFO5KJpUGa67uDJQ=
+R:libplain.so
+a:0:0:777
+Z:Q1OdyybqHv2RZAzwAt9jKbWEvZqR8=
+R:libplain.so.3
+a:0:0:777
+Z:Q1OdyybqHv2RZAzwAt9jKbWEvZqR8=
+R:libplain.so.3.0.0
+a:0:0:755
+Z:Q1ONQ6bGb2OdOfxhC9F1UGWGqH0+4=
+R:libsasldb.so
+a:0:0:777
+Z:Q1Y5vtFnakiyZf0P84O8G71XevCFg=
+R:libsasldb.so.3
+a:0:0:777
+Z:Q1Y5vtFnakiyZf0P84O8G71XevCFg=
+R:libsasldb.so.3.0.0
+a:0:0:755
+Z:Q12UG0B/KshRwRINMepv9pl1zyKEw=
 
 C:Q1R1ghyQ5AuzuH9MbaEHZOjdzpkTU=
 P:libssl1.1
@@ -2091,6 +2511,30 @@ Z:Q1JofhVH2uix3bDsZQX9dUimCS0dI=
 R:libstdc++.so.6.0.32
 a:0:0:755
 Z:Q16vBEv4ZW4LQS/bwTpyoWVla3gaI=
+
+C:Q1FXk1e5V6Ci1KCMyQdPbV1oQUx0c=
+P:libtasn1
+V:4.19.0-r2
+A:aarch64
+S:35276
+I:147456
+T:The ASN.1 library used in GNUTLS
+U:https://www.gnu.org/software/gnutls/
+L:LGPL-2.1-or-later
+o:libtasn1
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1684120357
+c:33283848034c9885d984c8e8697c645c57324938
+D:so:libc.musl-aarch64.so.1
+p:so:libtasn1.so.6=6.6.3
+F:usr
+F:usr/lib
+R:libtasn1.so.6
+a:0:0:777
+Z:Q1ak5AGTRORH1ub8bENfPBzDCJZwQ=
+R:libtasn1.so.6.6.3
+a:0:0:755
+Z:Q1GmKGa1hLeQdek0cBfPiO7+x4RCQ=
 
 C:Q1zUQHo0Tkp1W6bM6mji44QXrJfko=
 P:libunistring
@@ -2279,6 +2723,34 @@ R:xterm-color
 Z:Q1euLbxlELQb1Uiqy99z/NG3eUNcI=
 R:xterm-xfree86
 Z:Q1c14wDqoLedyw9mg+mGFWX9P4hNo=
+
+C:Q11oDQyoRSODTRyKSPGogxuFmPeak=
+P:nettle
+V:3.9.1-r0
+A:aarch64
+S:356767
+I:675840
+T:Low-level cryptographic library
+U:https://www.lysator.liu.se/~nisse/nettle/
+L:GPL-2.0-or-later OR LGPL-3.0-or-later
+o:nettle
+m:Fabian Affolter <fabian@affolter-engineering.ch>
+t:1685649736
+c:96de71714407e313996f5a8a5c7df1fa4833f4e4
+D:so:libc.musl-aarch64.so.1 so:libgmp.so.10
+p:so:libhogweed.so.6=6.8 so:libnettle.so.8=8.8
+F:usr
+F:usr/lib
+R:libhogweed.so.6
+a:0:0:777
+Z:Q15r1N/grX4YMsitdZSz9/ZTNJAGI=
+R:libhogweed.so.6.8
+Z:Q1DAs/Qx7gLVTcefgRuhV+ytJOpAI=
+R:libnettle.so.8
+a:0:0:777
+Z:Q1Pj9G96aChdH9ahErBwW4nFYGx1o=
+R:libnettle.so.8.8
+Z:Q1sl/74j6aMJAZx+0JXdkCwhzaQb4=
 
 C:Q1fiZ4388qVypzallMX92F/en/so4=
 P:nghttp2-libs
@@ -5550,6 +6022,30 @@ Z:Q11qFrSAy9WC+Wmz0O2JoVcxYmjRA=
 R:yallist.js
 Z:Q1K52WfWD638nxW5Rt/qIeBbQettM=
 
+C:Q1h+8k/Uk1Jfdr+FpEY9do1MfVgX4=
+P:npth
+V:1.6-r4
+A:aarch64
+S:6719
+I:81920
+T:The New GNU Portable Threads library
+U:https://gnupg.org/related_software/npth/
+L:LGPL-2.0-or-later
+o:npth
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1710257622
+c:fc95c59998285564fbcb0bfb2443898c62e10171
+D:so:libc.musl-aarch64.so.1
+p:so:libnpth.so.0=0.1.2
+F:usr
+F:usr/lib
+R:libnpth.so.0
+a:0:0:777
+Z:Q1t5h4MjDTYVR78XZYJP88qk6ROsQ=
+R:libnpth.so.0.1.2
+a:0:0:755
+Z:Q1Gi2cHInNxQaF7UFHncZaHERTLS0=
+
 C:Q1hltz5CPES1l9ZuzQz3oSzJ2iVCM=
 P:oniguruma
 V:6.9.9-r0
@@ -5596,6 +6092,46 @@ R:openssl
 a:0:0:755
 Z:Q13AZz294VHAjb774dI9wrF++BvhQ=
 
+C:Q10LHUbeW73MJHu848EBlef9rwjQ4=
+P:p11-kit
+V:0.25.3-r0
+A:aarch64
+S:366651
+I:1875968
+T:Library for loading and sharing PKCS#11 modules
+U:https://p11-glue.freedesktop.org/
+L:BSD-3-Clause
+o:p11-kit
+m:Fabian Affolter <fabian@affolter-engineering.ch>
+t:1700424491
+c:4a58c4a93164eae919faf8a349d51f9d62f525a1
+D:so:libc.musl-aarch64.so.1 so:libffi.so.8 so:libtasn1.so.6
+p:so:libp11-kit.so.0=0.3.1 cmd:p11-kit=0.25.3-r0
+F:etc
+F:etc/pkcs11
+R:pkcs11.conf.example
+Z:Q1s44/6fZq5djqemFj1zgWnof1i90=
+F:usr
+F:usr/bin
+R:p11-kit
+a:0:0:755
+Z:Q1xG3qazx0XSLl3zJVIRvYz0+G/LE=
+F:usr/lib
+R:libp11-kit.so.0
+a:0:0:777
+Z:Q1YB34L3JtXM/dHKqTrm5ajIw/JVM=
+R:libp11-kit.so.0.3.1
+a:0:0:755
+Z:Q12J3UoQr1+l3PaFPKvbk9VInYYD4=
+F:usr/libexec
+F:usr/libexec/p11-kit
+R:p11-kit-remote
+a:0:0:755
+Z:Q1SQXO5ariUutkY2qdf00/sc3Px80=
+R:trust-extract-compat
+a:0:0:755
+Z:Q1AC7O+2t3QZf960qad6XxrUrQItk=
+
 C:Q1KbYw+oC6JC2//Xq8rYUYI+PezXs=
 P:pcre2
 V:10.43-r0
@@ -5625,6 +6161,27 @@ Z:Q1jBDsifcJjH/m5mtbckUZFgFEq7M=
 R:libpcre2-posix.so.3.0.5
 a:0:0:755
 Z:Q1SUjlv1NLInyR+o9ju7A8dO845jk=
+
+C:Q14ytlT1fjvP2bGrDORaGNN5b0cJI=
+P:pinentry
+V:1.3.0-r0
+A:aarch64
+S:32121
+I:81920
+T:Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+U:https://www.gnupg.org/aegypten2/
+L:GPL-2.0-or-later
+o:pinentry
+m:Natanael Copa <ncopa@alpinelinux.org>
+t:1711117177
+c:2654b261b2072723fdcd53a7e041e2831d1ba518
+D:/bin/sh so:libassuan.so.0 so:libc.musl-aarch64.so.1 so:libgpg-error.so.0 so:libncursesw.so.6
+p:cmd:pinentry-curses=1.3.0-r0
+F:usr
+F:usr/bin
+R:pinentry-curses
+a:0:0:755
+Z:Q1AHVZ72IKziZSaKfDAS5cd8G/u3g=
 
 C:Q1Wg6q9IQq6zF7Z8QMiUnbLUQMz7g=
 P:quickjs
@@ -5701,6 +6258,30 @@ F:usr/bin
 R:scanelf
 a:0:0:755
 Z:Q1Qp4HAFpgXc96+nKikmAzxsLPsH0=
+
+C:Q1inkTXehw3XwVUMBiA9uWMDlvI6g=
+P:sqlite-libs
+V:3.45.3-r1
+A:aarch64
+S:776732
+I:1474560
+T:C library that implements an SQL database engine (libraries)
+U:https://www.sqlite.org/
+L:blessing
+o:sqlite
+m:Celeste <cielesti@protonmail.com>
+t:1716193559
+c:4dd994258db13f6a78ebbbf7c6f3f47b5b3704c4
+D:so:libc.musl-aarch64.so.1
+p:so:libsqlite3.so.0=0.8.6
+F:usr
+F:usr/lib
+R:libsqlite3.so.0
+a:0:0:777
+Z:Q1MZwGMEis9uc78EhxmxyozT2ZxZM=
+R:libsqlite3.so.0.8.6
+a:0:0:755
+Z:Q1i+TdzEZ5wvtusnm4IbvPBbRbjFw=
 
 C:Q1tzzozVVwaIANvhfOMuC/1kObXCQ=
 P:ssl_client

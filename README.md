@@ -31,6 +31,9 @@ small+
 - tgbot
 - vim
 - 7z
+- qjs
+- js
+- gpg
 
 
 

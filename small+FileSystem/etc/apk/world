@@ -5,6 +5,7 @@ apk-tools
 bash
 busybox
 git
+gpg
 jq
 libc-utils
 libcrypto1.1@testing
