@@ -45,10 +45,5 @@ html>head>title{My Web}<body,,,
 # Try also:
 html:sm,,,
 ```
-- codeium
-Free alternative to copilot. Create account on their web. Run in vim:
-```
-codeium:auth
-```
 - nerdtree
 ,n to open files directly from vim 
