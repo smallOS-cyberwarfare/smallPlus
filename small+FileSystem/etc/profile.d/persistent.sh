@@ -42,16 +42,13 @@ green=$'\e[1;32m';
 reset=$'\e[0m';
 PS1='\n\n${yellow}SMALL+${green} $(pwd)${reset}\n> ';
 PS2='${yellow}.${reset}  ';
-# ENV #
 
 
 # MISC
-
-which bash > /dev/null &&
-shopt -s checkwinsize \
-shopt -s cdable_vars \
-shopt -s autocd \
-shopt -s checkwinsize \
+shopt -s checkwinsize;
+shopt -s cdable_vars;
+shopt -s autocd;
+shopt -s checkwinsize;
 shopt -s histappend;
 
 export PROMPT_COMMAND='history -a';
