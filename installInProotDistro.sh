@@ -69,6 +69,8 @@ proot-distro remove small+ 2>/dev/null
 
 proot-distro install small+ 2>/dev/null
 
+clear
+
 yes | rm /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ -r 2>/dev/null
 
 mv small+FileSystem /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/small+ 2>/dev/null
