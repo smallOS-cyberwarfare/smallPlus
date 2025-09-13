@@ -4,11 +4,20 @@ Version of Small with preisntalled tools (my main OS)
 
 ##### Full Install on Termux
 
+###### AARCH64
 ```bash
 git clone https://github.com/smallOS-cyberwarfare/smallPlus
 cd smallPlus
 pkg install proot-distro
 ./installInProotDistro.sh
+```
+
+###### ARMV7-8
+```bash
+git clone https://github.com/smallOS-cyberwarfare/smallPlus
+cd smallPlus
+pkg install proot-distro
+./armv7InstallInProotDistro.sh
 ```
 
 ##### Usage

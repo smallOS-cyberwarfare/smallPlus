@@ -1,0 +1,17 @@
+alpine-baselayout
+alpine-keys
+alpine-release
+apk-tools
+bash
+busybox
+curl
+git
+gpg
+gpg-agent
+jq
+libc-utils
+nodejs
+npm
+p7zip
+quickjs
+vim
